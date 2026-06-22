@@ -1,0 +1,318 @@
+<!-- 
+  ═══════════════════════════════════════════════════════════════════════════
+  FITXA D'EMPRESA I CLIENT — Aperture Holistics Consulting
+  MP12 · CFGS SMIX · Curs 2026-27
+  ═══════════════════════════════════════════════════════════════════════════
+  Aquest fitxer és la font de dades per generar:
+    1. La fitxa de client HTML per als alumnes
+    2. El prompt d'avatar del client (Flux: PROMPT IA → avatar)
+    3. El prompt de logo de l'empresa (Flux: PROMPT IA → logo)
+    4. El banc de respostes del client per al fòrum (professor)
+    5. La correcció dels entregables (documentació del professor)
+  ═══════════════════════════════════════════════════════════════════════════
+ -->
+ <instruccions>
+	<generacio_fitxa>
+		<descripcio>Aquest apartat és intern i marca les directrius de generació dels perfils de client i empresa.</descripcio>
+		<format>El format de sortida és HTML. Has de fer servir les etiquetes CSS que es troben a: [adreça]. Si et falta alguna etiqueta indica-ho abans de començar.</format>
+		<presentacio>El resultat anirà embegut a pàgines de Moodle que poden llegir el CSS que estàs fent servir. El format de presentació serà en forma de llibre d'HTML amb pàgines internes. Indica dins de la pàgina amb un comentari on comença i acaba cada una de les pàgines.
+			<index_general>
+				<portada>Conté un abstract del projecte amb les dades principals, i espai per a un vídeo que es generarà a partir de tota la informació de la fitxa, com a suport visual i auditiu del projecte. Deixa un placeholder</portada>
+				<empresa_contacte>Aquí aniran els dos apartats de descripció de l'empresa i el contacte de l'empresa. S'ha de deixar un placeholder a l'empresa per deixar el logo a sobre del perfil. I un altre a contacte per deixar la imatge del seu avatar, en el format d'un diàleg, perquè els alumnes la reconeguin com a contacte del client</empresa_contacte>
+				<situacio_actual_context>
+				</situacio_actual_context>
+				<documents>
+				</documents>
+			</index_general>
+		</presentacio>
+		<redaccio>
+			<expressio>No abusis de les frases subordinades. Fés servir frases curtes i amb sentit. Paràgrafs de 3-4 línies màxim.</expressio>
+			<enumerats> Expressa sempre la intenció abans de l'enumerat ("heu de fer aquestes coses", o "seguiu les passes tal qual". Quan hagis de llistar alguna cosa, fes servir bullets. Si han de seguir un ordre, sigues explícit i fés servir números.</enumerats>
+			<taules>Si la informació és més visible o comprensible fent una taula que fent un llistat, fes servir la taula.</taules>
+		</redaccio>
+	</generacio_fitxa>
+	<generacio_materials>
+	</generacio_materials>
+</instruccions>
+<empresa>
+<!--  ═══════════════════════════════════════════════════════════════════
+       METADADES DEL PROJECTE
+       Identifica el projecte, la variant i la tecnologia. La referència és: P[num]-[inicials empresa]-[curs abreujat]
+  ══════════════════════════════════════════════════════════════════════  -->
+<metadades>El format és una taula, amb les referències a l'esquerra i les dades a la dreta.
+	<referencia>Assigna un codi de referència al projecte. 
+		<estructura>P[num]-[inicials empresa. 3 caràcters]-[curs abreujat]</estructura>
+		<empresa>Nom de l'empresa. D'aquí s'agafa el codi de 3 caràcters</empresa>
+		<curs>2026-27</curs>
+		<exemple>P2-BPA-2627</exemple>
+	</referencia>
+	<tecnologia>Vindrà donada pel prompt del projecte.
+		<descripcio_tecnologia>Descripció de la tecnologia que es fa servir al projecte. S'indica el més bàsic.
+			<exemple>"Disseny i muntatge de xarxa local"</exemple>
+		</descripcio_tecnologia>
+	</tecnologia>
+	<!--  Indica si aquest fitxer és el model mestre o una variant. No és una informació que passa al document que es dona als alumnes  -->
+	<tipus_fitxer>model_mestre</tipus_fitxer>
+</metadades>
+<!--  ═══════════════════════════════════════════════════════════════════
+       BLOC 1 · PERFIL DE L'EMPRESA
+       Informació pública i objectiva. L'alumne la llegeix i ha de poder caracteritzar l'empresa (RA1) sense necessitat de preguntar. La cultura tecnològica és IMPLÍCITA: no s'etiqueta, es dedueix.
+  ══════════════════════════════════════════════════════════════════════  -->
+<bloc1_perfil>
+	<nom_comercial>Nom de l'empresa. 2-3 paraules. Si és necessari, forma jurídica (SL, SA, Coop).
+		<exemple>"Bufet Puigdomènech i Associats"</nom_comercial>
+	<sector>Serveis jurídics. Dret mercantil i laboral</sector>
+	<anys_en_actiu>23</anys_en_actiu>
+	<any_fundacio>2003</any_fundacio>
+	<treballadors>
+		<total>6</total>
+		<detall>4 advocats socis, 1 administrativa a jornada completa, 1 becari a temps parcial</detall>
+	</treballadors>
+	<!--  Franges: menys_100k | 100k_500k | mes_500k | mes_1M  -->
+	<facturacio_anual franja="100k_500k">Entre 200.000 € i 500.000 €</facturacio_anual>
+	<localitzacio>
+		<adreca>Carrer Gran de Gràcia, 84, principal</adreca>
+		<poblacio>Barcelona</poblacio>
+		<codi_postal>08012</codi_postal>
+	</localitzacio>
+	<descripcio_activitat>2-3 línies sobre l'activitat. Ha de deixar entreveure el perfil tecnològic de l'empresa.
+		<exemple>El bufet ofereix assessorament jurídic a petites i mitjanes empreses del sector barceloní, especialitzat en contractació mercantil, acomiadaments i constitució de societats. Els quatre advocats treballen de forma semi-autònoma: cadascun porta els seus propis clients i expedients, però comparteixen l'administrativa i els recursos físics de l'oficina.
+		</exemple>
+	</descripcio_activitat>
+	<!--  Cultura tecnològica:   -->
+	<cultura_tecnologica nivell="basic"> ha de quedar implícita al text de la fitxa. El camp 'nivell' orienta el professor per calibrar la dificultat de la solució esperada. Valors: basic | mitja | avancada
+		<exemple>L'oficina no ha actualitzat la seva infraestructura TIC en els darrers vuit anys. Cada advocat gestiona els seus equips de forma independent. La filosofia del bufet és "preferim invertir en advocats, no en tecnologia".</exemple>
+	</cultura_tecnologica>
+</bloc1_perfil>
+<!--  ═══════════════════════════════════════════════════════════════════
+       BLOC 2 · CONTACTE I ORGANIGRAMA
+       Només la part de l'estructura que és rellevant per al projecte. L'estil de comunicació és clau per al RA5 (correus, reunions).
+  ══════════════════════════════════════════════════════════════════════  -->
+<bloc2_contacte>
+	<persona_contacte>
+		<nom>Nom i cognoms de la persona de contacte.
+			<exemple>Marta Casas Puig</exemple>
+			<tractament>D'acord amb el nom i nivell de </tractament>
+		</nom>
+		<perfil_laboral>
+			<departament>qui encarrega el projecte.
+				<exemple>Administració</exemple>
+			</departament>
+			<carrec>posició del contacte dins de l'empresa. Marca la seva responsabilitat
+				<exemple>Administrativa i responsable d'oficina</exemple>
+			</carrec>
+			<funcio> Descriu el paper de la persona de contacte dins de l'organització.
+				<exemple>Gestió de l'agenda dels advocats, atenció telefònica i presencial, facturació i suport administratiu general a tot el bufet.</exemple>
+			</funcio>		
+			<depen_de>persona o departament que ha de validar les seves decisions, en cas que aquesta persona o departament existeixin.
+				<exemple>Sr. Ferran Puigdomènech (soci director i soci majoritari)</exemple>
+			</depen_de>
+		</perfil_laboral>
+		<condicionants>La persona de contacte pot tenir limitacions o dependències jeràrquiques que limitin el seu poder de decisió.
+			<autonomia_personal>Descriu per a quines accions relacionades amb el projecte necessita comunicar o una autorització. Per exemple un import màxim, un canvi d'arquitectura informàtica, etc.
+				<exemple>Pot autoritzar despeses fins a 500 € sense consultar la direcció. Per sobre d'aquest import, qualsevol decisió requereix l'aprovació explícita del Sr. Puigdomènech, preferiblement per escrit.</exemple>
+			</autonomia_personal>
+			<coneixement_tecnològic>Diferent de la cultura tecnològica de l'empresa, la persona de contacte sol tenir un coneixement diferent del global de l'empresa. Això condiciona el nivell d'expressió dels alumnes cap a aquesta persona.
+				<exemple>La Sra. Casas és una usuaria d'ofimàtica. El seu coneixement tècnic sobre les xarxes informàtiques i la seva configuració és molt bàsic. Algunes coses les busca a Google, les coses de cables les mira amb el becari o truca a la companyia de serveis d'internet. Posa interès, però no és una tècnica</exemple>
+			</coneixement_tecnològic>
+		</condicionants>
+		<estil_comunicacio tipus="detallista_desconfiat">Descriu la forma de comunicació de la persona de contacte. el valor de tipus indica l'estil: directe | detallista_desconfiat | delegador
+			<exemple>La Sra. Casas fa moltes preguntes abans de prendre qualsevol decisió, vol que tot quedi documentat i justificat, i desconfia de solucions que no entén del tot. Espera que li expliquis cada pas amb paciència. Registre formal i una mica cerimoniós. Es dirigeix sempre a tothom de vostè i espera que sigui així amb ella.</exemple>
+		</estil_comunicacio>
+	</persona_contacte>
+	<!--  Notes que el professor veu però els alumnes NO. Orienten com jugar el rol del client a les reunions.  -->
+	<notes_professor>
+		<justificacio>Serveixen per donar les pautes al professor sobre el personatge que ha d'encarnar durant les reunions. També proporciona aspecte visual de la persona de contacte i el logo de l'empresa.</justificacio>
+		<rol_contacte>Descripció del paper que fa la persona a l'empresa, i la posició que té davant del projecte.
+			<exemple>És la ma dreta del Sr. Puigdomènech des del dia que van obrir el bufet. És respectada per tothom. Seriosa.</exemple>
+		</rol_contacte>
+		<rol_client>El client no sempre coincideix amb el contacte. Aquí tenim la descripció dels condicionants del contacte més ben escrits.
+			<exemple>El Sr. Puigdomènech és el decisor final però no apareix a les reunions. La Sra. Casas filtra tota la informació i la presenta al soci. Qualsevol proposta de cost superior a 500 € s'ha de justificar formalment per escrit abans de la reunió d'aprovació. Si els alumnes no porten documentació escrita a la reunió de l'oferta, el client demanarà que la tornin a fer.
+			</exemple>
+		</rol_client>
+		<!--  ═══════════════════════════════════════════════════════════════════
+			   ASSETS VISUALS. Prompts per generar avatar i logo via IA (node blau del diagrama). Els camps 'prompt_*' s'usen directament a l'eina de generació.
+		  ══════════════════════════════════════════════════════════════════════  -->
+		<assets_visuals>
+			<avatar_client>Els contactes dels clients han de tenir una cara visible, que es representa 
+				<nom_personatge>Nom de la persona que fa de contacte</nom_personatge>
+				<descripcio_visual>Bust de la persona de contacte. De pit cap amunt, format 1:1. Descripció física de la persona, vestimenta, personalitat. Estil de representació. Normalment dibuix tipus Studio Ghibli</descripcio_visual>
+				<prompt_generacio_imatge>Descripció en anglès per a un prompt per a Nanobanana o chatgpt.</prompt_generacio_imatge>
+				<expressions>Les expressions que hem de donar per als avatars de la web.</expressions>
+				<exemple>
+					<nom_personatge>Marta Casas Puig</nom_personatge>
+					<descripcio_visual> Dona d'entre 40 i 50 anys, aspecte professional i ordenat. Cabell fosc recollit, ulleres de muntura prima. Expressió seriosa però no hostil, actitud d'algú acostumat a gestionar coses amb precisió. Roba formal d'oficina, tons grisos o blaus marins. </descripcio_visual>
+					<prompt_generacio_imatge> Professional woman, 40-50 years old, law firm office administrator. Dark hair pulled back neatly, thin-framed glasses, serious but approachable expression. Wearing formal business attire in navy blue or grey tones. Office background, bookshelves with legal files. Realistic illustration style, neutral background, headshot framing. No text. </prompt_generacio_imatge>
+					<expressions>Necessitem 4 expressions d'ella. Contenta, seriosa, enfadada, concentrada.
+				</exemple>
+			</avatar_client>
+			<logo_empresa>
+				<nom_empresa>Nom de l'empresa client. Alineat amb el tipus de negoci.</nom_empresa>
+				<descripcio_visual>Logo de l'empresa. Poques tintes i planes. Per poder fer la papereria de l'empresa. Es farà servir a plantilles i pàgines web</descripcio_visual>
+				<prompt_generacio_imatge>Descripció en anglès per a un prompt per a Nanobanana o chatgpt.</prompt_generacio_imatge>
+				<exemple>
+					<nom_empresa>Bufet Puigdomènech i Associats</nom_empresa>
+					<descripcio_visual> Logo professional i clàssic per a un bufet d'advocats. Tipografia serif elegant, colors foscos (blau marí o verd botella), possiblement una balança o un element geomètric simple com a símbol. Aspecte conservador i de confiança. Sense elements moderns ni tecnològics. Entre una i tres tintes. </descripcio_visual>
+					<prompt_generacio_imatge> Professional law firm logo, "Puigdomènech & Associats", classic serif typography, dark navy blue and gold color palette. Simple geometric emblem or stylized scales of justice. Conservative, trustworthy, traditional aesthetic. Clean white background. Vector style, no gradients. One to three plain colors.</prompt_generacio_imatge>
+				</exemple>
+			</logo_empresa>
+		</assets_visuals>
+	</nota_professor_rol_client>
+</bloc2_contacte>
+<!--  ═══════════════════════════════════════════════════════════════════
+       BLOC 3 · SITUACIÓ ACTUAL I CONTEXT. Per al RA1 (caracteritzar el problema) i RA2 (proposar solucions). Inclou la situació tècnica actual i per què el client actua ara.
+  ══════════════════════════════════════════════════════════════════════  -->
+<bloc3_situacio>
+	<infraestructura_actual> Descripció detallada de la situació actual. Les etiquetes poden variar segons la tecnologia i tipus de projecte. Pots definir noves etiquetes si ho consideres necessari.
+		<equips>Enumeració dels equips físics que formen part del projecte. Ordinadors, dispositius i perifèrics que intervenen en el projecte.</equips>
+		<programari>Enumeració del programari que forma part del projecte. Tipus de programa, versió, llicències, necessitat</programari>
+		<connectivitat>Equips de xarxa, protocols i comunicacions que intervé en el projecte. Accés local, remot ...</connectivitat>
+		<exemple>
+			<equips>
+				<item>6 ordinadors sobretaula (Windows 10 i Windows 11, un per treballador)</item>
+				<item>1 impressora làser Canon a la zona administrativa</item>
+				<item>1 impressora làser HP a la sala d'advocats</item>
+				<item>1 PC vell que funciona com a servidor de fitxers informal (sense sistema de fitxers centralitzat)</item>
+				<item>1 router domèstic en mode bridge connectat a la fibra òptica de l'operador</item>
+			</equips>
+			<connectivitat> Tots els dispositius —ordinadors, mòbils personals dels advocats i el portàtil que s'ofereix als clients a la sala d'espera— comparteixen la mateixa xarxa sense cap tipus de segmentació ni control d'accés. </connectivitat>
+			<impressio> Cap de les dues impressores està en xarxa. Cada treballador ha d'anar físicament a un dels dos ordinadors on estan connectades per imprimir. </impressio>
+			<acces_remot> L'advocat Sr. Roca treballa habitualment des de casa. Accedeix als documents compartint carpetes manualment via Google Drive personal, cosa que genera problemes de versions i oblits de sincronització. </acces_remot>
+		</exemple>
+	</infraestructura_actual>
+	<!--  Per què el client actua ara i no abans  -->
+	<detonant>Pot ser una nova necessitat donada per una oportunitat de negoci que obliga a fer canvis, una millora del dia a dia de l'empresa o el departament, una decisió empresarial i no tecnològica. Diverses causes aquí.
+		<exemple>El banc de l'empresa ha notificat un avís de seguretat: s'han detectat intents d'accés no autoritzats al compte corrent de l'empresa des d'una adreça IP de la mateixa oficina. El soci director ha decidit actuar immediatament.</exemple>
+	</detonant>
+	<intents_previs>Explica aquí si és el primer cop que ho fan, és un fet habitual, o si es feia internament i ara s'externalitza per alguna raó.
+		<exemple>Cap. El bufet mai ha contractat serveis TIC externs.</exemple>
+	</intents_previs>
+	<urgencia nivell="alta">Com d'urgent és el projecte per al client. L'etiqueta nivell indica com d'urgent ho tenen. Valors: baixa | mitjana | alta | crítica
+		<exemple>El soci director vol una solució operativa i implantada en menys de 4 setmanes.</exemple>
+	</urgencia>
+</bloc3_situacio>
+<!--  ═══════════════════════════════════════════════════════════════════
+       BLOC 4 · RESTRICCIONS I CONDICIONS Alimenta directament el RA2 (viabilitat, pressupost, recursos). 
+  ══════════════════════════════════════════════════════════════════════  -->
+<bloc4_restriccions>Les restriccions han de crear tensions entre si per forçar decisions en la redacció de l'oferta.
+	<termini_implantacio>Durada del projecte. Els projectes duren 4 setmanes, més 2 de la redacció de l'oferta</termini_implantacio>
+	<pressupost moneda="EUR" iva="inclòs">quantia del pressupost per l'execució del projecte. Pot ser un pressupost obert o tancat. O incloure la mà d'obra.</pressupost>
+	<nota_pressupost>Condicions que posa el client per a la redacció del pressupost.</nota_pressupost>
+	<equipament_existent> l'etiqueta obligatori_reutilitzar="true" => restricció dura, no es pot substituir. Aquí es llista tot l'equipament existent implicat en el projecte. Cada objecte es llista amb una etiqueta 
+		<item>equipament</item>
+	</equipament_existent>
+	<preferencies_client>Com vol el client que se li presenti la solució. Volen tenir control, supervisió, poder modificar en el futur, o un claus en mà.</preferencies_client>
+	<vetos_tecnologics>Condicionants ocasionats per necessitats del negoci o de la legislació vigent. Pot tenir més d'un veto.
+		<veto>Descripció del condicionant</veto>
+	</vetos_tecnologics>
+	<condicions_us>Quines condicions ha de complir la solució per satisfer les necessitats del client.</condicions_us>
+	<exemple>
+		<pressupost moneda="EUR" iva="inclòs">quantia del pressupost per l'execució del projecte. Pot ser un pressupost obert o tancat. O incloure la mà d'obra.</pressupost>
+		<nota_pressupost> El pressupost és per a maquinari i material. La mà d'obra (el vostre treball com a consultors) no s'inclou en aquest import. Calculeu-la al pressupost com una partida separada amb les tarifes corporatives d'Aperture Holistics. </nota_pressupost>
+		<equipament_existent>
+			<item obligatori_reutilitzar="true">Impressora Canon (zona administrativa)</item>
+			<item obligatori_reutilitzar="true">Impressora HP (sala d'advocats)</item>
+			<item obligatori_reutilitzar="false">6 ordinadors sobretaula existents</item>
+			<item obligatori_reutilitzar="false">PC vell com a possible servidor de fitxers</item>
+		</equipament_existent>
+		<preferencies_client> El client prefereix solucions senzilles que pugui gestionar sense dependre de suport tècnic extern de forma continuada. La Sra. Casas serà l'administradora de facto del sistema i no té formació tècnica específica. </preferencies_client>
+		<vetos_tecnologics>
+		<veto>Cap document de clients al núvol. Les dades dels expedients jurídics són confidencials i el bufet no vol que surtin dels seus servidors locals.</veto>
+		</vetos_tecnologics>
+		<termini_implantacio unitat="setmanes">4</termini_implantacio>
+		<condicions_us> El sistema l'han de poder usar persones sense coneixements tècnics. L'oficina funciona de dilluns a divendres de 9h a 19h. Qualsevol intervenció tècnica que afecti el funcionament s'ha de fer fora d'aquest horari o en dissabte. </condicions_us>
+	</exemple>
+</bloc4_restriccions>
+<!--  ═══════════════════════════════════════════════════════════════════
+       BLOC 5 · DOCUMENTACIÓ ADJUNTA Llista de fitxers que acompanyen la fitxa. El catàleg de La Botiga del PC és comú a tots els projectes.
+  ══════════════════════════════════════════════════════════════════════  -->
+<bloc5_documentacio>Enumerat de documents que proporciona l'empresa per fer el projecte. Cada <document> porta una etiqueta indicant el seu tipus: cataleg_preus | inventari | planol | document_client | altre  
+	<exemple>
+		<document tipus="cataleg_preus" font="comú_tots_projectes"> La Botiga del PC · Catàleg de preus edició 2026-27 </document>
+		<document tipus="inventari" format="xlsx"> Inventari d'equips del bufet: 6 PC, 2 impressores, servidor informal (marques, models, any de compra, estat) </document>
+		<document tipus="planol" format="png"> Croquis simplificat de l'oficina amb distribució de sales i ubicació actual dels equips </document>
+		<document tipus="document_client" format="pdf"> Avís de seguretat rebut del banc (anonimitzat) </document>
+	</exemple>
+</bloc5_documentacio>
+<!--  ═══════════════════════════════════════════════════════════════════
+       ENTREGABLES ESPERATS
+       Llista el que els alumnes han de lliurar i quan. Alimenta la "correcció dels entregables" (documentació del professor) i les rúbriques.
+  ══════════════════════════════════════════════════════════════════════  -->
+<entregables>
+<fase nom="oferta" setmana_limit="2">
+	<entregable obligatori="true">Document de clarificació de client (plantilla omplerta)</entregable>
+	<entregable obligatori="true">Esquema de solució tècnica (aprovat per Albert)</entregable>
+	<entregable obligatori="true">Proposta tècnica (descripció de la solució)</entregable>
+	<entregable obligatori="true">Pressupost (amb preus de La Botiga del PC)</entregable>
+	<entregable obligatori="true">Calendari de projecte (Gantt)</entregable>
+	<entregable obligatori="true">Acta de reunió de presentació de l'oferta</entregable>
+</fase>
+<fase nom="projecte" setmana_limit="5">
+	<entregable obligatori="true">Diagrama de xarxa (topologia final)</entregable>
+	<entregable obligatori="true">Simulació funcional a Packet Tracer</entregable>
+	<entregable obligatori="true">Configuració de les impressores en xarxa (documentada)</entregable>
+	<entregable obligatori="true">Solució d'accés remot per al Sr. Roca (documentada)</entregable>
+	<entregable obligatori="true">Manual d'usuari per a la Sra. Casas</entregable>
+	<entregable obligatori="true">Acta de reunió de seguiment</entregable>
+	<entregable obligatori="false" tipus="bonus">Configuració de VLAN clients / interna</entregable>
+</fase>
+<fase nom="presentacio" setmana_limit="6">
+	<entregable obligatori="true">Índex de presentació (aprovat per Lídia)</entregable>
+	<entregable obligatori="true">Presentació (PowerPoint o equivalent)</entregable>
+	<entregable obligatori="true">Carpeta d'entrega completa i ordenada</entregable>
+</fase>
+</entregables>
+<!--  ═══════════════════════════════════════════════════════════════════
+       ESCALETA DE PREGUNTES PER LES REUNIONS DEL CLIENT. El professor usa aquesta guia per fer les preguntes als alumnes com les que faria el client. 3-4 preguntes per projecte i fase.
+  ══════════════════════════════════════════════════════════════════════  -->
+<escaleta_reunions_client>Coses que ha de mirar o preguntar el client durant 
+	<dubtes_oferta>
+</escaleta_reunions>
+
+
+<!--  ═══════════════════════════════════════════════════════════════════
+       BANC DE RESPOSTES DEL CLIENT. El professor usa aquest banc per respondre als fòrums dels alumnes. Cada resposta simula el to i l'estil de la Sra. Casas. Inclou respostes a preguntes freqüents i reaccions a situacions tipus.
+  ══════════════════════════════════════════════════════════════════════  -->
+<banc_respostes_client>Segons el projecte, hem de tenir respostes tipus per fer el rol de clients de les diferents reunions. S'agrupen en tres grans blocs.
+	<respostes_primer_contacte>Respostes a les preguntes que fan prèvies a la redacció de l'oferta</respostes_primer_contacte>
+	<respostes_reunio_oferta>Les respostes que poden sorgir durant la presentació i aprovació de l'oferta</respostes_reunio_oferta>
+	<respostes_reunio_seguiment>Respostes a la reunió de seguiment.</respostes_reunio_seguiment>
+
+	
+	<!--  Respostes al primer correu de contacte dels alumnes  -->
+	<exemple>
+		<respostes_primer_contacte>
+			<resposta situacio="pregunten_pressupost_detall"> Bona tarda. Pel que fa al pressupost, els puc confirmar que disposem de fins a 1.200 € per a maquinari i material. Si necessiten adquirir res per sobre d'aquest import, hauran de justificar-ho per escrit i jo ho elevaré al Sr. Puigdomènech per a la seva aprovació. Necessitin el que necessitin, que m'ho facin arribar documentat. </resposta>
+			<resposta situacio="pregunten_horari_intervencio"> Preferiblement fora de l'horari d'oficina. Treballem de dilluns a divendres de 9 a 19h i no podem permetre's interrupcions. Si ho necessiten, podem acordar un dissabte al matí, però ho hauríem de confirmar amb força antelació. </resposta>
+			<resposta situacio="pregunten_sobre_el_servidor_vell"> Sí, tenim un ordinador vell que el Miquel —el nostre becari— va configurar fa temps per guardar-hi alguns documents. No sé exactament com funciona, però hi accedim des dels nostres ordinadors quan ens cal. Si el poden aprofitar per al que necessitem, millor, però si no serveix tampoc és imprescindible. </resposta>
+			<resposta situacio="pregunten_sobre_les_impressores"> Les dues impressores funcionen perfectament i no les volem canviar. Simplement necessitem que tots puguem imprimir des dels nostres llocs de treball sense haver d'aixecar-nos. Sembla molt bàsic, però és un problema que tenim cada dia. </resposta>
+			<resposta situacio="pregunten_sobre_el_nuvol"> Miri, jo entenc que el núvol és molt còmode, però el Sr. Puigdomènech és molt clar en aquest punt: els expedients dels nostres clients no poden sortir dels nostres servidors. És una qüestió de confidencialitat professional. Per a altres coses potser sí, però per als documents dels clients, no. </resposta>
+		</respostes_primer_contacte>
+		<!--  Reaccions durant la reunió de presentació de l'oferta  -->
+		<respostes_reunio_oferta>
+			<resposta situacio="pressupost_supera_limit"> Esperi, esperi. Vostès m'estan parlant de [import]€ i jo tinc autoritzat fins a 1.200€. Hauré de consultar-ho amb el Sr. Puigdomènech i no li puc dir ara mateix si ho aprovarà. M'ho posen per escrit? </resposta>
+			<resposta situacio="oferta_incompleta_falta_document"> Perdoni, però a mi m'agrada tenir-ho tot ben documentat. Vostès m'han explicat molt bé la solució, però no veig aquí [document que falta]. Sense això no em sento còmoda portant-ho al soci director. M'ho poden fer arribar aviat? </resposta>
+			<resposta situacio="oferta_correcta_aprovada"> Molt bé. Crec que m'ho han explicat prou clar i la documentació sembla completa. Ho comentaré amb el Sr. Puigdomènech aquesta setmana i els faré arribar la confirmació per correu electrònic. Si tot va bé, podem procedir tal com ho han plantejat. </resposta>
+		</respostes_reunio_oferta>
+		<!--  Reaccions durant la reunió de seguiment (setmana 5)  -->
+		<respostes_reunio_seguiment>
+			<resposta situacio="impressores_no_en_xarxa_encara"> Però si portem ja [X] setmanes i les impressores encara no funcionen en xarxa... Això era una de les coses principals que els vam demanar. Quan podrem tenir-ho? </resposta>
+			<resposta situacio="seguiment_correcte"> D'acord, sembla que van per bon camí. El Sr. Roca m'ha dit que ja ha pogut accedir als documents des de casa sense el problema de les versions. Això ens ha anat molt bé. Continuïn així. </resposta>
+			<resposta situacio="demanen_canvi_fora_abast"> Miri, el que em proposen ara no estava a l'oferta que ens van presentar. Si volen afegir coses noves haurem de parlar de si això té un cost addicional, i tornar a passar-ho pel Sr. Puigdomènech. </resposta>
+		</respostes_reunio_seguiment>
+	</exemple>
+</banc_respostes_client>
+
+<!--  ═══════════════════════════════════════════════════════════════════
+       NOTES PER A LA CORRECCIÓ (documentació del professor)
+       Orienta el professor sobre els errors freqüents i els punts
+       de conflicte específics d'aquest projecte.
+  ══════════════════════════════════════════════════════════════════════  -->
+<notes_correccio>
+<error_frequent> Proposar solucions al núvol per als documents dels clients. El veto és explícit a la fitxa. Si apareix a l'oferta, retornar sense aprovar. </error_frequent>
+<error_frequent> Pressupostar impressores noves en lloc de posar-les en xarxa. Les impressores existents s'han de reutilitzar obligatòriament. Cal un servidor d'impressió o un print server USB. </error_frequent>
+<error_frequent> No justificar per escrit les partides per sobre de 500€. La Sra. Casas no pot aprovar res per sobre d'aquest import sense documentació escrita. Si l'oferta no ho contempla, el client no la pot aprovar en la reunió. </error_frequent>
+<punt_conflicte> L'accés remot del Sr. Roca és un requisit implícit que s'esmenta al bloc 3 però no es demana explícitament al bloc 4. Els alumnes que llegeixen amb atenció ho detecten; els que no, no el resolen. És un bon indicador de la qualitat de la comprensió del client. </punt_conflicte>
+<punt_conflicte> El PC vell com a servidor és una solució possible però requereix que els alumnes justifiquin si és viable (sistema operatiu compatible, capacitat suficient). Si proposen reutilitzar-lo sense justificació tècnica, es considera mancança a la proposta tècnica. </punt_conflicte>
+</notes_correccio>
+</empresa>
