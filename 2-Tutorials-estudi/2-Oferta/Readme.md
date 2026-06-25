@@ -38,8 +38,7 @@ S'ha de prendre com una reunió (link al tutorial).
 Com podeu veure, hi ha molta feina a fer abans de començar un projecte per a un client. El primer pas serà la primera reunió. Hem de fer molt bona impressió.
 
 ## La plantilla de clarificació (subcapítol)
-(Lídia) Des del Departament de Recursos Humans us hem preparat un document que us pot ajudar a organitzar les vostres idees sobre 
-
+(Lídia) Des del Departament de Recursos Humans us hem preparat un document que us pot ajudar a organitzar l'estudi de l'oferta. El document porta les explicacions als diferents apartats.
 
 ## La primera reunió amb el client (capítol)
 (Albert) Amb tota la informació recollida i la informació proporcionada pel client, hem de fer-nos un guió de la reunió.
