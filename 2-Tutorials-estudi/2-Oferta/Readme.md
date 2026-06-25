@@ -75,26 +75,35 @@ Com ja us ha comentat la Lídia, fer bé i lligar bé els tres documents ajuda a
 ### Destacat
 - **L'experiència professional millora les previsions**. El grau d'encert en temps i cost dels projectes, així com el disseny de les solucions ve sobretot de l'experiència. No esperem miracles en els primers projectes, només que aneu acumulant coneixement.
 
-## Plantejar la solució (subcapítol)
+## Plantejar la solució al problema del client (subcapítol)
 (Albert) No hi ha una única forma de fer una oferta, però potser la més pràctica és començar establint
 - **Què hem de fer.** Elements tangibles. Màquines, xarxes, instal·lacions de programari...
 - **Com ho hem de fer**. De cada un dels elements que hem dit que farem, quines passes hem de seguir. Com si fos un tutorial. No val dir "muntar un ordinador". Cal dir "muntar la placa base, posar el processador, posar la pasta tèrmica, posar el ventilador, connectar la font d'alimentació a la placa base". A més detall, millor aproximació.
 - **Com ens ajustem al pressupost i calendari del client**. Cal ser llestos, i si has de muntar molts ordinadors, fer una cadena de muntatge potser estalvia moltes hores.
 
-Això porta una estona de treball de grup, pensar i prendre notes. No és fàcil. I no passa res per enviar més correus al client demanant 
+Això porta una estona de treball de grup, pensar i prendre notes. No és fàcil. I no passa res per enviar més correus al client demanant més informació. Feu els missatges de manera que el client no pugui contestar amb més indefinicions.
 
 ### Destacat
 - **Pensar bé l'oferta també és pensar bé el projecte**. Estalviareu molts maldecaps si dediqueu una bona estona i feu bé aquesta part de preparar el projecte. Anar lent ara et permetrà anar ràpid al fer el projecte.
 - **Millor anar una mica per sobre a les estimacions de temps i diners que per sota**. Sempre estareu a temps de rebaixar, però és molt difícil i no queda bé demanar ampliacions de temps i diners a mig projecte.
 
-## Redactar els tres documents (subcapítol)
+## Redactar els tres documents de l'oferta (Capítol)
 (Albert) Aperture té tres documents a les plantilles corporatives que heu de fer servir per la redacció de les ofertes. Seguiu les directrius que hi ha a organització. Tots ells són autoexplicatius, i només heu de seguir les instruccions que hi ha dins de cada apartat. Esborreu les instruccions (en color blau) un cop heu contestat tot el que hi ha d'haver a l'apartat.
 
-### Guies per redactar l'oferta
-- **Llenguatge tècnic, però entenedor**. El nostre destinatari no és informàtic.
-- Totes les referències que pugueu 
+### Guies per redactar la proposta tècnica
+- **Seguiu les instruccions del document**. No teniu pèrdua.
+- **Llenguatge tècnic, però entenedor**. El nostre destinatari no és informàtic. Per això us contracta.
+- **Deixeu clar què fareu, i què no fareu**. S'han de deixar clars els límits del que fareu, o no acabareu mai.
+- **El resum executiu es fa al final**. Un cop ja saps què hi va, aleshores omples aquest apartat. Aquest apartat és el que solen llegir els que paguen la factura al final. Ha d'estar molt ben redactat.
+- **Detalleu molt bé què entregareu**. Què rebrà el client en acabar el projecte, com ho entregareu i quines quantitats.
+- **Afegiu informació addicional si convé**. Si heu de fer manuals, o donar fitxes tècniques i garanties de material comprat, elements, ubicacions, funcionament en condicions normals.
 
 ### Destacat
 - **El client no ha de veure els continguts de les plantilles**. Les instruccions són per vosaltres. Que quedin restes de les instruccions fa molt mala impressió i ja sabeu que la nostra imatge és molt important. No som aficionats.
 
+### Guies per redactar el pressupost
+- **Feu servir la plantilla corporativa**. 
+- **Recordeu sempre les hores personals**. Aperture té un preu per hora de tècnic, que inclou les hores del tècnic, el cost de tenir les oficines obertes, el marge de beneficis empresarial... Aquest és un preu tancat que no heu de desglossar mai al client.
+- **No oblideu les unitats**. Si compreu per pes, han de sortir kg. Si són unitats, s'ha d'especificar.
+- **Feu servir 
 

@@ -38,6 +38,10 @@ El procediment més formal per preparar una reunió és:
 - Enviament de correu electrònic formal amb el document de convocatòria i documents necessaris adjunts.
 - Espera que els convocants acceptin la reunió i fes un recordatori quan algú no et contesti.
 
+## Destacat
+- **Aquesta reunió podria ser un correu**. Si l'únic que necessites és una resposta o una confirmació, no convoquis una reunió. El criteri: si no cal que tothom parli, no cal que tothom es reuneixi.
+- **Una reunió sense preparació és temps perdut per a tothom.** Són un instrument per tirar endavant els projectes, no per a bloquejar-los. Fer-les amb professionalitat generen confiança en el client. Fes-les malament, i el projecte anirà malament.
+
 ### Com és un ordre del dia (subcapítol)
 Format bàsic:
 1. Presentació dels assistents i de l'objectiu de la reunió — 5 min
@@ -46,10 +50,11 @@ Format bàsic:
 4. Preguntes i aclariments — 10 min
 5. Resum d'acords i pròxims passos — 5 min
 
-### Material per la reunió
+### Abans de la reunió
 - Prepara una presentació. Facilita portar la reunió i informar els assistents. Fes servir el tutorial de presentacions sobre com fer i estructurar-la.
 - Recull la documentació dels temes que proposen perquè tothom tingui la informació necessària.
 - Fes-te un guió. I si tens un moment, assaja.
+- Recordeu que heu de tenir un comportament i una presència adequada a la reunió. Ni gorres, ni xandall, ni els tics habituals de "m'avorreixo molt" davant del client.
 
 ## La reunió (subcapítol)
 (Albert) L'objectiu és finalitzar la reunió amb un progrés clar per al projecte.
@@ -62,6 +67,13 @@ Qui convoca la reunió ha de fer de secretari.
 - Manté l'ordre i el bon ambient de la reunió.
 - En acabar la reunió, fa lectura de les notes preses, per tal que totes les parts estiguin d'acord amb el que es registrarà a l'acta de reunió.
 
+Mantenir una comunicació efectiva.
+- Escolteu abans de respondre (no talleu al client)
+- Demaneu aclariments si no enteneu alguna cosa
+- Accepteu crítiques sense defensivitat ("Tens raó, ho revisarem")
+- Si no sabeu alguna cosa, digueu "ho consultarem i us confirmem" (millor que inventar!)
+- Si el client es dirigeixi a algú per fer-li una pregunta, només pot contestar el destinatari. Després el comercial o un company poden completar, però no abans. 
+
 Els acords presos impliquen compromisos adquirits pels assistents, amb una data de termini i unes especificacions. Per tant, és fonamental que tothom tingui clar què ha de fer i per quan, per tirar endavant el projecte.
 
 ## Després de la reunió. L'acta i acords posteriors (subcapítol)
@@ -72,17 +84,16 @@ Els acords presos impliquen compromisos adquirits pels assistents, amb una data 
 El secretari, un cop feta l'acta.
 - Fa la distribució via correu electrònic.
 - Fa el seguiment dels acords pendents.
+- Si us heu apuntat coses durant la reunió per contestar, ho feu en el correu de distribucio de l'acta.
 - Si hi ha comentaris a l'acta, pot fer-ne actualització i redistribució.
 
 Un cop està aprovada per totes les parts, l'acta de reunió s'arxiva i passa a formar part de la documentació del projecte.
 
 ## Coses que no has de fer (subcapítol)
 ## Destacat
-— **Aquesta reunió podria ser un correu**. Si l'únic que necessites és una resposta o una confirmació, no convoquis una reunió. El criteri: si no cal que tothom parli, no cal que tothom es reuneixi.
 - **No enviis la convocatòria sense l'ordre del dia**. Els assistents han de poder preparar-se. Una reunió on tothom arriba sense saber de qué anirà és una reunió improductiva des del minut zero.
 - **No convoquis amb menys de 24 hores si no és una urgència real**. I si és una urgència, diga-ho explícitament i explica per què.
-- **No possis una durada orientativa si en realitat no la controles**. Si dius "una hora", has de fer tot el possible per acabar en una hora. Si s'allarga per causes alienes, és diferent. Però tu has de gestionar el temps.
-- **Una reunió sense preparació és temps perdut per a tothom.** Són un instrument per tirar endavant els projectes, no per a bloquejar-los. Fer-les amb professionalitat generen confiança en el client. Fes-les malament, i el projecte anirà malament.
+- **No posis una durada orientativa si en realitat no la controles**. Si dius "una hora", has de fer tot el possible per acabar en una hora. Si s'allarga per causes alienes, és diferent. Però tu has de gestionar el temps.
 - **Una reunió sense acta és com si no hagués existit.** Les actes de reunió són un document vital dels projectes, i s'han de prendre tan seriosament com la resta de documents de projecte.
 
 ## Saber-ne més (capítol)

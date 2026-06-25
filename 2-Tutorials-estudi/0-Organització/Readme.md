@@ -23,7 +23,30 @@ Us deixo a continuació el link a les plantilles de control de qualitat per la p
 - Accessibilitat. Tot ha d'estar a mà i ràpid. Es tracta de no perdre temps buscant arxius.
 - Productivitat. Pots recuperar un projecte que vas fer fa molts anys i el pots visitar com si no hagués passat temps.
 - Estandardització. Tenir tots els projectes amb la mateixa estructura o molt similar ajuda a treballar més ràpid.
+- Ordre. Posar un o dos dígits davant del nom fa que s'ordenin per número i no per ordre alfabètic.
 - Arxius antics. No es tira res. Feu una carpeta OLD per deixar els objectes vells.
+
+Aquesta és una estructura de carpetes d'exemple. Feu la vostra segons el tipus de projecte
+📁 **01_DOCUMENTACIO_CLIENT**
+    - Tot el que ens dona el client: Plec, emails, especificacions
+    - **NOMÉS LECTURA**. Mai modifiqueu aquests fitxers. Canvieu els permisos de la carpeta si cal.
+    - Si necessiteu fer anotacions, copieu a altra carpeta.
+📁 **02_OFERTA**
+    - Tota la documentació que es faci a l'oferta: Anàlisi, disseny, pressupost, memòria
+    - Versions intermèdies (_v01, _v02...) + versió FINAL
+    - Un cop aprovada, els documents d'oferta es posen en només lectura.
+📁 **03_PROJECTE**
+    - Implementació: tot el que treballeu i sigui per entregar al client,
+    - Carpetes a mida: Configuracions, proves, documentació tècnica
+📁 **04_QUALITAT_SEGUIMENT**
+    - Checklists qualitat, protocols de proves
+    - Seguiment amb el client: Actes de reunions, presentacions, etc.
+    - Si compreu material per al client, guardeu les garanties i fitxes tècniques per entregar-les al final.
+    - Auditories internes. Recordeu que us farem seguiment de com treballeu i afectarà a la valoració final.
+📁 **05_ENTREGUES_CLIENT**
+    - **MOLT IMPORTANT: Aquí es CLONA tot el que lliureu**
+    - **Organitzat per data:** Entrega_01_Setmana_4_Oferta/
+    - Per què? Si el client diu 'el document que em vau donar té errors', podeu anar aquí i veure EXACTAMENT què li vau donar.
 
 ## Tothom ha de saber què hi ha dins dels arxius sense obrir.(subcapítol)
 3. Nomenclatura dels arxius.
@@ -51,7 +74,7 @@ Normes importants:
 - CAPTURES PANTALLA:
     - Noms descriptius: Ping_Gaming_Servidors.png
     - NO feu servir: Captura1.png, IMG_20250115.png"
- -RESPONSABILITAT:
+ - RESPONSABILITAT:
     - Assegureu que totes les carpetes i els noms dels arxius són correctes.
     - Reviseu que tots els documents estan a lloc i es fa servir l'estructura correctament.
     - Abans d'enviar res al client assegureu que tota la documentació és la darrera versió i que compleix amb els criteris de qualitat
