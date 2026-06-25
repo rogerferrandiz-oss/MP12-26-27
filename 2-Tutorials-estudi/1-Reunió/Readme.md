@@ -77,7 +77,7 @@ El secretari, un cop feta l'acta.
 Un cop està aprovada per totes les parts, l'acta de reunió s'arxiva i passa a formar part de la documentació del projecte.
 
 ## Coses que no has de fer (subcapítol)
-## Destacat 1
+## Destacat
 — **Aquesta reunió podria ser un correu**. Si l'únic que necessites és una resposta o una confirmació, no convoquis una reunió. El criteri: si no cal que tothom parli, no cal que tothom es reuneixi.
 - **No enviis la convocatòria sense l'ordre del dia**. Els assistents han de poder preparar-se. Una reunió on tothom arriba sense saber de qué anirà és una reunió improductiva des del minut zero.
 - **No convoquis amb menys de 24 hores si no és una urgència real**. I si és una urgència, diga-ho explícitament i explica per què.

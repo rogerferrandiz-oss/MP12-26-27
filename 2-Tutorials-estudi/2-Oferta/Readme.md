@@ -15,23 +15,36 @@ Aquest capítol és tan llarg com important. Us deixem un vídeo de resum, però
 - Si no et donen la feina, són hores laborals tirades a les escombraries.
 - Pots investigar si hi ha dubtes sobre com es fa alguna cosa. Però sense completar.
 
-## La primera reunió amb el client (capítol)
 ## Entendre el client i el que demana.(subcapítol)
 
-(Albert) La primera feina en qualsevol projecte és interpretar el que el client creu que necessita per traduir-ho a allò que tècnicament necessita, i explicar-ho en termes que aquest pugui entendre.
+(Lídia) La primera feina en qualsevol projecte és interpretar el que el client creu que necessita per traduir-ho a allò que tècnicament necessita, i explicar-ho en termes que aquest pugui entendre.
 
 Un projecte comença per una primera entrevista i presa de contacte amb el client. 
 
 S'ha de prendre com una reunió (link al tutorial).
 - Investigar una mica abans sobre l'àrea de coneixement del client, la mida de l'empresa, volum de facturació, etc. 
+- Saber qui serà el nostre contacte a l'empresa. Això ens donarà informació sobre la forma de treballar amb el client, el seu poder de decisió, com ens hi hem de dirigir, etc.
+- La primera exposició del problema que els ha dut a contactar amb Aperture.
 
-## Llegir les fitxes del client
-(Lídia) Aperture disposa d'un potent departament comercial que 
+## Llegir les fitxes del client i projecte (subcapítol)
+(Lídia) Aperture disposa d'un potent departament comercial que us proporcionarà una guia del client. Ells han fet la primera entrevista al client i elaboren un document molt detallat sobre què demana el client. La vostra tasca serà interpretar aquest document i preparar una primera reunió que serveixi per redactar una oferta.
 
-### Prepara la reunió amb el client (subcapítol)
+- **BLOC 1. Dades de l'empresa**. Aquí trobareu una taula inicial que descriu l'empresa. Això us donarà pistes sobre el seu nivell tecnològic, la possible complexitat del treball.
+- **BLOC 2. Contacte i estructura administrativa**. Qui serà la persona de contacte. Això us marcarà quin llenguatge tecnològic heu de fer servir, quin registre de conversa i el nivell de formalitat que esperen de les vostres comunicacions.
+- **BLOC 3. Situació actual i context del problema**. Aquest apartat es fa a partir de la informació que proporciona el client i no sempre serà tot l'acurat que podeu esperar. Estudieu molt bé aquest apartat, perquè serà on més informació necessitareu aclarir.
+- **BLOC 4. Restriccions i condicions del projecte**. El client sempre té unes condicions especials que cal respectar i tenir en compte per la realització del projecte. És possible que per cultura d'empresa o manca de formació tècnica, el client marqui unes condicions que no us posaran fàcil la feina.
+- **BLOC 5. Documentació adjunta**. El client sol proporcionar informació que creu que necessitaràs. No sempre és tota la documentació que realment necessitaràs. Cal estudiar-la bé i veure si necessites res més.
+
+Com podeu veure, hi ha molta feina a fer abans de començar un projecte per a un client. El primer pas serà la primera reunió. Hem de fer molt bona impressió.
+
+## La plantilla de clarificació (subcapítol)
+(Lídia) Des del Departament de Recursos Humans us hem preparat un document que us pot ajudar a organitzar les vostres idees sobre 
+
+
+## La primera reunió amb el client (capítol)
 (Albert) Amb tota la informació recollida i la informació proporcionada pel client, hem de fer-nos un guió de la reunió.
 - Si vas amb un comercial, no està malament presentar Aperture al client, i mostrar projectes similars ja fets a altres clients.
-- No cal fer presentació tècnica, però sí que cal fer un guió.
+- No cal fer presentació tècnica, perquè encara no teniu fet res. Però sí que cal fer un guió.
 - Prepara una llista de preguntes a fer. No totes han de ser tècniques.
 - Quin és el pressupost màxim.
 - Quant temps tenim per entregar el projecte acabat.
