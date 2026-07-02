@@ -1,22 +1,35 @@
 # COM PROCEDIR AMB AQUEST DOCUMENT.
-A partir del document Proposta_mp12_2627_v3.docx, que defineix el 
+A partir del document Proposta_mp12_2627_v3.docx, que defineix tot el curs, els seus apartats i diferents materials, extraiem la informació per completar aquest apartat.
 
-### LLIBRE 1. Benvinguda al curs
-1. Benvinguda al mòdul per part de Cave Johnson.
-- Explica que els acaben de contractar com a júniors a l'empresa més important del món. Que han d'estar contents, però que pensin que també és una gran responsabilitat.
-- Presenta a Albert, el mentor tècnic assignat. Aquí copiem una mica resumida la biografia del curs passat d'Albert, perquè puguin empatitzar amb ell. 5-7 línies.
-- Presenta la Lídia, la responsable de RRHH. Els posem una mica al dia sobre les seves funcions. Curtet. 5-7 línies.
+## LLIBRE 1. Benvinguda al curs (capítol)
+(Cave Johnson) Benvinguda al mòdul per part de Cave Johnson. Molt efusiva, histriònica.
+- Explica que els acaben de contractar com a júniors a l'empresa més important del món. Que han d'estar contents, però que pensin que també és una gran responsabilitat. Que quan vagin als clients, seran la cara d'Aperture. El que busco en els meus treballadors és:
+    - Tots som un equip. Ajudeu-vos els uns als altres. La cooperació és clau.
+    - La puntualitat a les entregues és sagrada.
+    - L'èxit del projecte és responsabilitat de tots.
+    - A Aperture som els millors i ho demostrem en cada treball. No ens conformem amb els mínims. VOLEM ELS MÀXIMS!!
 
-### LLIBRE 2. La nota del mòdul
-1. (Albert) Resultats d'aprenentatge.
-- Cada subcapítol és un RA. Té a l'encapçalat la definició del resultat d'aprenentatge.
-- Mostrem la rúbrica que farem servir per cada RA. Indicar quan la farem servir segons l'esquema de flux de treball.
-2. (Lídia) Quant pesa cada projecte a la nota de cada RA. 20%.
-- Presentem el quadre de 5 projectes i 5 RAs.
+### Albert Serrano (subcapítol)
+- (Cave Johnson) Us presento l'Albert, el mentor tècnic assignat. Ell us guiarà per la part tècnica. És molt bo, feu-li cas i tot anirà sobre rodes.
+(Albert) - HOLA, BON DIA!! Jo sóc l'Albert Serrano, el vostre mentor tècnic assignat per fer-vos el seguiment fins que acabeu el periode de prova. Vaig començar com a becari a Aperture després de graduar-me primer en SMIX i després en DAM. Vaig anar pujant dins l'empresa treballant en projectes de digitalització per PIME catalanes. Ara m'encarrego dels grups de formació de personal d'Aperture. M'agrada treballar amb alumnes perquè em recorden la meva pròpia evolució professional. "Cada promoció m'ensenya alguna cosa nova sobre com abordar els problemes."
 
-### LLIBRE 3. Com us avaluarem un projecte
-0. Portada. La portada es fa al final, és un resum dels diferents subcapítols. Té un vídeo que explica tots esl punts fet amb NotebookLM i penjat a Youtube a partir de la informació 
-1. (Lídia) Explica els grups de treball i com els canviarem al final de cada projecte.
+### Lídia García (subcapítol)
+- (Cave Johnson) I també us presento la Lídia García, la responsable de RRHH de la nostra delegació. 
+(Lídia) Bon dia, nois!! Sóc la Lídia. M'encarrego principalment de l'acollida a l'empresa, i de que entengueu la nostra cultura empresarial. Això implicarà que no sempre us faré visites per veure com esteu, i us vigilaré i controlaré com ho feu, no per la part tècnica sinó la de qualitat. Amb mi aprendreu tot el que heu de saber d'estar a una empresa i tractar amb els clients. Entendre les empreses que ens venen a buscar, preparar-los una oferta, fer el projecte i mantenir la comunicació amb ells.
+
+## LLIBRE 2. La nota del mòdul (Capítol)
+(Lídia) Durant la vostra estada com a aprenents, tenim estipulat que us avaluarem d'aquests conceptes, a més dels purament tècnics.
+<explicació>Cada subcapítol és un RA. Té a l'encapçalat la definició del resultat d'aprenentatge. S'agafa la informació del document de proposta. I després mostrem la rúbrica que farem servir per cada RA. Indicar quan la farem servir segons l'esquema de flux de treball.</explicació>
+
+### El pes de cada RA (subcapítol)
+(Lídia) A Aperture la transparència és important. Durant la vostra estada en pràctiques, us farem fer 5 projectes senzills associats a diferents tecnologies que heu hagut de conèixer i dominar durant la vostra formació al cicle formatiu. Cada un d'aquests projectes té un pes igual dins l'avaluació general.
+<explicació>Quant pesa cada projecte a la nota de cada RA. 20%. Presentem el quadre de 5 projectes i 5 RAs que hi ha al document.</explicació>
+
+## LLIBRE 3. Com us avaluarem un projecte (Capítol)
+<explicació> El capítol és un resum dels diferents subcapítols. Té un vídeo que explica tots esl punts fet amb NotebookLM i penjat a Youtube a partir de la informació</explicació> 
+
+### Com farem els grups
+(Lídia) Explica els grups de treball i com els canviarem al final de cada projecte.
 - A veure com expliquem que els NESE tindran dumping a les notes.
 2. (Albert) Com avaluem un projecte
 - Calendari del projecte. 6 setmanes, i la durada de cada fase. Oferta, projecte, entrega.

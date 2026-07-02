@@ -39,13 +39,13 @@ Aquest document s'annexa a l'oferta original i la modifica. Per tant, és contra
 Aperture té una plantilla dissenyada per aquests casos, esperem que no l'hagueu de fer servir.
 
 ### FASE 4. Presentació al client
-Expliqueu l'impacte amb DADES (no opinions)
-Mostreu el document de gestió del canvi
-Deixeu clar què està inclòs i què no
-Demaneu aprovació formal (signatura o email)
+- Expliqueu l'impacte amb DADES (no opinions)
+- Mostreu el document de gestió del canvi
+- Deixeu clar què està inclòs i què no
+- Demaneu aprovació formal (signatura o email)
 
 ### FASE 5. Presentació al client
-Un cop el client ha llegit, acceptat i signat el document, podem procedir a fer tots els canvis segons com està planejat
+Un cop el client ha llegit, acceptat i signat el document, podem procedir a fer tots els canvis segons com està planejat. MAI ABANS.
 
 ### Destacat
 - **Analitzeu bé els riscos**. Generalment, el client tampoc sap què implica tècnicament el que està demanant.

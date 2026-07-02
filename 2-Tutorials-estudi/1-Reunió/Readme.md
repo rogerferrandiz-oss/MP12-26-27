@@ -97,4 +97,4 @@ Un cop està aprovada per totes les parts, l'acta de reunió s'arxiva i passa a 
 - **Una reunió sense acta és com si no hagués existit.** Les actes de reunió són un document vital dels projectes, i s'han de prendre tan seriosament com la resta de documents de projecte.
 
 ## Saber-ne més (capítol)
-Encara s'ha d'omplir.
+<explicació>Encara s'ha d'omplir.</explicació>
