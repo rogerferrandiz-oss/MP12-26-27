@@ -1,5 +1,6 @@
 ## GESTIÓ DEL CANVI (capítol)
-La gestió dels canvis dels projectes és important. Al món real, els projectes no són com els enunciats dels exercicis a l'aula. Poden passar moltes coses:
+
+(Lídia) La gestió dels canvis dels projectes és important. Al món real, els projectes no són com els enunciats dels exercicis a l'aula. Poden passar moltes coses:
 - Requisits nous que no estaven al plec
 - Modificació de requisits existents
 - Eliminació de requisits acordats
@@ -20,6 +21,7 @@ Els documents que gestionen els canvis són contractuals com les ofertes. Podeu 
 - **Els clients també són empreses**. I buscaran que feu el màxim esforç pel mínim preu. Heu d'estar atents.
 
 ## Les fases de gestió del canvi (subcapítol)
+(Albert) És molt important seguir una metodologia per poder gestionar els canvis. De vegades n'hi ha més d'un dins d'un projecte, i cal saber a quin canvi pertany cada petició, durada i import.
 ### FASE 1. Recepció del canvi
 - El client comunica el canvi (email, reunió, trucada...)
 - Confirmeu recepció: "Hem rebut la vostra sol·licitud"
@@ -46,6 +48,6 @@ Demaneu aprovació formal (signatura o email)
 Un cop el client ha llegit, acceptat i signat el document, podem procedir a fer tots els canvis segons com està planejat
 
 ### Destacat
-- Analitzeu bé els riscos. Generalment, el client tampoc sap què implica tècnicament el que està demanant.
-- Deixeu una mica de marge per als errors. Un canvi a meitat d'un projecte pot tenir efectes indesitjats perquè no està ben planejat.
-- 
+- **Analitzeu bé els riscos**. Generalment, el client tampoc sap què implica tècnicament el que està demanant.
+- **Deixeu una mica de marge per als errors**. Un canvi a meitat d'un projecte pot tenir efectes indesitjats perquè potser no està tan ben planejat com imaginem. Deixeu unes hores de més i una mica més de pressupost per si no heu encertat amb la previsió.
+- **No feu res dels canvis fins que el client no signi**. Igual heu de desfer el que ja heu fet. No seria el primer cop.
