@@ -9,10 +9,10 @@ A continuació us deixem un vídeo de resum del tutorial. Però recomanem que el
 
 Tenen dues funcions principals.
 - **Transparència**. Mantenir el client informat sobre com es desenvolupa el contracte.
-- **Impulsar el desenvolupament**. Preguntar al client sobre dubtes que apareguin sobre el projecte, proposar canvis.
+- **Impulsar el desenvolupament**. El client respon els vostres dubtes que podeu tenir sobre el projecte i proposar canvis o millores que necessita.
 
-Les reunions són tan importants com l'oferta. Tots el que s'hi recull forma part d'un projecte.
-La comunicació és important. Els correus electrònics han de ser correctes. Feu servir el tutorial si us fa falta.
+Les reunions són moments on el client valida o modifica la feina que esteu fent, ja sigui durant la confecció de l'oferta o mentre porteu a terme el projecte.
+La comunicació a les reunions és fonamental. Els correus electrònics han de ser correctes. Feu servir el tutorial si us fa falta.
 
 Una reunió té 3 fases.
 - La preparació.
@@ -20,12 +20,11 @@ Una reunió té 3 fases.
 - L'acta i acords posteriors.
 
 ## Preparar una reunió (Capítol)
-(Lídia) Podem tenir aquests tipus de reunió.
-1. **Comercial /Feina**. No formen part d'un projecte.
-- Contacte tècnic o comercial per fer una oferta per fer un projecte.
-2. **Tècnica / Seguiment**. Normalment tenen periodicitat fixa, però es poden programar fora de calendari si convé.
+(Lídia) Generalment, tenim aquests tipus de reunió.
+1. **Comercial /Feina**. No formen part d'un projecte. Serveixen per conèixer el problema d'un possible client i entendre què necessita per fer-li una oferta de serveis.
+2. **Tècnica / Seguiment**. Normalment s'estableixen en el calendari de treballs del projecte. 
 - Informar el client sobre com va el seu projecte.
-- Decidir indefinicions o modificacions sobrevingudes a algun projecte en curs.
+- Comunicar al client indefinicions trobades o modificacions sobrevingudes a algun projecte en curs.
 3. **Tancament**. Reunió per tancar oficialment un projecte. Entrega de materials, documentació i factura.
 
 El procediment més formal per preparar una reunió és:
@@ -40,12 +39,12 @@ El procediment més formal per preparar una reunió és:
 - Enviament de correu electrònic formal amb el document de convocatòria i documents necessaris adjunts.
 - Espera que els convocants acceptin la reunió i fes un recordatori quan algú no et contesti.
 
-## Destacat
+### Destacat
 - **Aquesta reunió podria ser un correu**. Si l'únic que necessites és una resposta o una confirmació, no convoquis una reunió. El criteri: si no cal que tothom parli, no cal que tothom es reuneixi.
 - **Una reunió sense preparació és temps perdut per a tothom.** Són un instrument per tirar endavant els projectes, no per a bloquejar-los. Fer-les amb professionalitat generen confiança en el client. Fes-les malament, i el projecte anirà malament.
 
 ### Com és un ordre del dia (subcapítol)
-Format bàsic:
+(Lídia) Una reunió té un horari concret i una llista de temes a tractar. El format bàsic:
 1. Presentació dels assistents i de l'objectiu de la reunió — 5 min
 2. [Tema principal 1] — XX min
 3. [Tema principal 2] — XX min
@@ -76,7 +75,8 @@ Mantenir una comunicació efectiva.
 - Si no sabeu alguna cosa, digueu "ho consultarem i us confirmem" (millor que inventar!)
 - Si el client es dirigeixi a algú per fer-li una pregunta, només pot contestar el destinatari. Després el comercial o un company poden completar, però no abans. 
 
-Els acords presos impliquen compromisos adquirits pels assistents, amb una data de termini i unes especificacions. Per tant, és fonamental que tothom tingui clar què ha de fer i per quan, per tirar endavant el projecte.
+### Destacat
+**Els acords presos impliquen compromisos adquirits pels assistents**, amb una data de termini i unes especificacions. Per tant, és fonamental que tothom tingui clar què ha de fer i per quan, per tirar endavant el projecte.
 
 ## Després de la reunió. L'acta i acords posteriors (subcapítol)
 (Lídia) L'acta de reunió és un document estandarditzat. Són les notes preses durant aquesta passades a net.
@@ -89,14 +89,16 @@ El secretari, un cop feta l'acta.
 - Si us heu apuntat coses durant la reunió per contestar, ho feu en el correu de distribucio de l'acta.
 - Si hi ha comentaris a l'acta, pot fer-ne actualització i redistribució.
 
-Un cop està aprovada per totes les parts, l'acta de reunió s'arxiva i passa a formar part de la documentació del projecte.
+### Destacat
+- **Les actes de reunió són una extensió del projecte.** Un cop està aprovada per totes les parts, l'acta de reunió s'arxiva i passa a formar part de la documentació del projecte.
 
 ## Coses que no has de fer (subcapítol)
-## Destacat
+
+### Destacat
 - **No enviis la convocatòria sense l'ordre del dia**. Els assistents han de poder preparar-se. Una reunió on tothom arriba sense saber de qué anirà és una reunió improductiva des del minut zero.
 - **No convoquis amb menys de 24 hores si no és una urgència real**. I si és una urgència, diga-ho explícitament i explica per què.
 - **No posis una durada orientativa si en realitat no la controles**. Si dius "una hora", has de fer tot el possible per acabar en una hora. Si s'allarga per causes alienes, és diferent. Però tu has de gestionar el temps.
 - **Una reunió sense acta és com si no hagués existit.** Les actes de reunió són un document vital dels projectes, i s'han de prendre tan seriosament com la resta de documents de projecte.
 
 ## Saber-ne més (capítol)
-<explicació>Encara s'ha d'omplir.</explicació>
+https://www.criteria.es/igualdad/como-organizar-una-renion-de-trabajo-efectiva/
