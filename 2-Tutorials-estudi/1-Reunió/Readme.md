@@ -3,6 +3,8 @@
 
 A continuació us deixem un vídeo de resum del tutorial. Però recomanem que el feu servir només per recordatori.
 
+[placeholder per a vídeo]
+
 # INTRODUCCIÓ (subcapítol)
 
 Tenen dues funcions principals.

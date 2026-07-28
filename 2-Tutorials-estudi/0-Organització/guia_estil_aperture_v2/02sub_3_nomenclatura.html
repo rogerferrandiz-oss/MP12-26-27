@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>1.3 Nomenclatura d'arxius i versions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Albert+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
 /* Variables i reset Aperture — inclou tot el sistema */
 .aperture-tutorial-wrap {
@@ -449,3 +459,64 @@
     font-weight: 400;
 }
 </style>
+</head>
+<body>
+<div class="aperture-tutorial-wrap">
+
+<div class="aperture-dialogue">
+  <img class="aperture-dialogue-avatar" src="https://cv.copernic.cat/pluginfile.php/29254/mod_resource/content/2/lidia-normal-avatar.png" alt="Lídia García">
+  <div class="aperture-dialogue-content">
+    <div class="aperture-dialogue-header">
+      <p class="aperture-dialogue-name">Lídia García</p>
+      <span class="aperture-dialogue-role">Responsable de Recursos Humans · Aperture Holistics</span>
+    </div>
+    <div class="aperture-dialogue-text">
+<p>Un nom d'arxiu ha de dir-li a qualsevol persona de l'empresa què hi ha dins sense obrir-lo. El projecte el fa Aperture, no els components del grup. Qualsevol ha de poder entrar a un projecte en qualsevol moment.</p>
+    </div>
+  </div>
+</div>
+<table class="aperture-table aperture-table--rubrica">
+<thead>
+<tr>
+<th>Correcte</th>
+<th>Incorrecte</th>
+<th>Per què</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Memoria_tecnica_v01.docx</code></td>
+<td><code>Document1.docx</code></td>
+<td>El nom no diu res del contingut</td>
+</tr>
+<tr>
+<td><code>Pressupost_FINAL_v02.xlsx</code></td>
+<td><code>Pressupost final 2.xlsx</code></td>
+<td>Espais i sense versió clara</td>
+</tr>
+<tr>
+<td><code>Ping_Gaming_Servidors.png</code></td>
+<td><code>Captura1.png</code></td>
+<td>Cap pista del contingut</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Cada canvi important és una versió nova (<code>_v01</code>, <code>_v02</code>...). La versió final es marca <code>FINAL</code>.</li>
+<li>Data en format <code>AAAAMMDD-nom.arxiu</code> només si us interessa que els més recents quedin a dalt.</li>
+<li>Si un client demana canvis sobre alguna cosa que li has entregat, fas una nova versió del document.</li>
+</ul>
+<div class="aperture-alert aperture-alert-warning" role="note" aria-label="Avís important">
+  <span class="aperture-alert-icon" aria-hidden="true"><i class="fas fa-triangle-exclamation"></i></span>
+  <span class="aperture-alert-content">
+<ul>
+<li><strong>Format d'entrega al client</strong>: sempre PDF, excepte si el projecte necessita un format natiu (.xlsx, .pkt) o el client el demana expressament.</li>
+<li>Internament podeu treballar amb .docx, però cloneu a PDF per entregar.</li>
+<li>Un cop un document arriba al client, ja no es toca més.</li>
+</ul>
+  </span>
+</div>
+<hr />
+</div>
+</body>
+</html>

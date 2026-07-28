@@ -15,16 +15,16 @@ Us deixo a continuació el link a les plantilles de control de qualitat per la p
 
 ### Destacat
 - **Cal ser organitzats**. El caos complica el desenvolupament del projecte i el pot fer fracassar. 
-- **La imatge de l'empresa és més important que el projecte**. No mantenir la imatge d'empresa dona mala imatge de l'empresa on treballes i desconfiança al client. No s'ha de fer.
+- **La imatge de l'empresa és gairebé més important que el projecte**. No mantenir la imatge d'empresa dona mala imatge de l'empresa on treballes i desconfiança al client. No s'ha de fer.
 
 ## Cal ser ordenats. L'ordre és temps.(subcapítol)
 (Albert).Estructura de carpetes.
-- Necessitat. Tothom ha de saber on és tot.
-- Accessibilitat. Tot ha d'estar a mà i ràpid. Es tracta de no perdre temps buscant arxius.
-- Productivitat. Pots recuperar un projecte que vas fer fa molts anys i el pots visitar com si no hagués passat temps.
-- Estandardització. Tenir tots els projectes amb la mateixa estructura o molt similar ajuda a treballar més ràpid.
-- Ordre. Posar un o dos dígits davant del nom fa que s'ordenin per número i no per ordre alfabètic.
-- Arxius antics. No es tira res. Feu una carpeta OLD per deixar els objectes vells.
+- **Necessitat**. Tothom ha de saber on és tot.
+- **Accessibilitat**. Tot ha d'estar a mà i ràpid. Es tracta de no perdre temps buscant arxius.
+- **Productivitat**. Pots recuperar un projecte que vas fer fa molts anys i el pots visitar com si no hagués passat temps.
+- **Estandardització**. Tenir tots els projectes amb la mateixa estructura o molt similar ajuda a treballar més ràpid en nous projectes o incorporar-te a projectes que no has començat tu.
+- **Ordre**. Posar un o dos dígits davant del nom d'arxiu fa que s'ordenin per número i no per ordre alfabètic. Pots posar el més important o més usat dalt de tot.
+- **Arxius antics**. No es tira res. Feu una carpeta OLD per deixar els objectes vells.
 
 Aquesta és una estructura de carpetes d'exemple. Feu la vostra segons el tipus de projecte
 📁 **01_DOCUMENTACIO_CLIENT**

@@ -29,10 +29,17 @@ No aneu sols en cap moment. Hi ha una sèrie de fites al llarg de les 6 setmanes
 | Dia 1 | Fitxa de clarificació del client | Albert |
 | Setmana 1-2 | Esquema de la solució tècnica | Albert |
 | Final setmana 2 | Acceptació de l'oferta (reunió + acta) | Albert i Lídia |
-| Setmana 4-5 | Llista de verificació tècnica | Albert |
-| Setmana 5 | Reunió de seguiment amb el client | Albert i Lídia |
-| Setmana 5-6 | Auditoria interna | Lídia |
+| Setmana 4 | Reunió de seguiment amb el client | Albert i Lídia |
+| Setmana 5 | Llista de verificació tècnica, auditoria interna i entrega final | Albert i Lídia |
 | Setmana 6 | Presentació final + examen | Albert i Lídia |
+
+```bloc-dialeg
+avatar: albert_formal
+nom: Albert Serrano
+rol: Consultor sènior · Mentor tècnic
+
+Fixeu-vos que entregueu el projecte al final de la setmana 5, no de la 6. Ho fem així expressament: la setmana 6 la necessitem sencera per a les presentacions i l'examen de tothom, i vosaltres teniu el cap de setmana entremig per preparar-vos l'exposició i repassar per l'examen.
+```
 
 ```bloc-dialeg
 avatar: albert_formal
@@ -67,6 +74,8 @@ nom: Lídia García
 rol: Responsable de Recursos Humans
 
 Cada observació pot ser positiva o negativa, i actua com un multiplicador sobre la teva nota individual —no la del teu company. Si dues persones entreguen el mateix document, però una hi ha treballat molt més que l'altra, les observacions són el que ho reflectirà a la nota final.
+
+El multiplicador es mou entre 0,5 i 1,5. És a dir: en el pitjor cas, la teva part de la nota es queda a la meitat; en el millor, es multiplica per una vegada i mitja.
 
 Rebreu la comunicació de les vostres observacions amb regularitat, perquè no us trobeu sorpreses al final del projecte.
 ```
@@ -117,6 +126,10 @@ rol: Responsable de Recursos Humans
 Una cosa important: el que aprova o suspèn el mòdul no és la nota de cada projecte, és la nota de cada RA per separat, un cop feta la mitjana dels 5 projectes. Pots tenir un projecte fluix i continuar aprovant el RA si els altres el compensen.
 
 La nota de projecte, a més, l'utilitzem nosaltres per decidir els nous aparellaments —això ja ho hem explicat abans.
+```
+
+```destacat-warning
+El multiplicador de les observacions d'aula només afecta el 60% de treball en parella (projecte i presentació). No afecta el 40% de l'examen individual —allà la nota surt únicament del que responguis.
 ```
 
 ---
