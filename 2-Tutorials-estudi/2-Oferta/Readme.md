@@ -56,7 +56,7 @@ Com podeu veure, hi ha molta feina a fer abans de començar un projecte per a un
 
 ## La primera reunió amb el client (capítol)
 ```bloc-dialeg
-(Albert) Us tocarà fer de detectius, durant la reunió. Sabeu la feina que demanen, però sempre hi ha alguna cosa que Amb tota la informació recollida i la informació proporcionada pel client, hem de fer-nos un guió de la reunió.
+(Albert) Us tocarà fer de detectius, durant la reunió. Sabeu la feina que demanen, però sempre hi ha alguna cosa que no encaixa o que s'han oblidat d'explicar. Amb tota la informació recollida i la informació proporcionada pel client, hem de fer-nos un guió de la reunió.
 - Prepara una llista de preguntes a fer. No totes han de ser tècniques. Interessa't per com fan ara les coses i mira si el que et demanen ho pot resoldre, o si manca alguna cosa.
 - Quin és el pressupost màxim. 
 - Quant temps tenim per entregar el projecte acabat.

@@ -1,9 +1,13 @@
 # RESUM (Capítol)
+```bloc-diàleg
 (Albert) Les reunions són una part molt important de qualsevol projecte. No es poden prendre a la lleugera. S'han de preparar bé. Cada reunió és diferent. Una reunió mal preparada dura el doble, acaba sense conclusions clares i fa que el client dubti de la teva professionalitat abans que hagis ensenyat res del projecte. A Aperture, organitzar una reunió és una tasca professional com qualsevol altra: té un procediment i s'ha de fer bé.
 
 A continuació us deixem un vídeo de resum del tutorial. Però recomanem que el feu servir només per recordatori.
+´´´
 
+´´´destacat-vídeo
 [placeholder per a vídeo]
+´´´
 
 # INTRODUCCIÓ (subcapítol)
 

@@ -1,11 +1,13 @@
 ## GESTIÓ DEL CANVI (capítol)
 
-(Lídia) La gestió dels canvis dels projectes és important. Al món real, els projectes no són com els enunciats dels exercicis a l'aula. Poden passar moltes coses:
+(Lídia) La gestió dels canvis dels projectes és important. Al món real, els projectes no són com els enunciats dels exercicis a l'aula. Poden passar moltes coses tant per la banda del client com la nostra:
 - Requisits nous que no estaven al plec
 - Modificació de requisits existents
 - Eliminació de requisits acordats
 - Canvi de tecnologia o solució tècnica
 - Substitució de la persona que fa l'encàrrec o canvi de directrius empresarials.
+- Problemes de subministrament o increments de preu que provoquen canvis al calendari o al pressupost.
+- Canvis en el material o equips. Material descatalogat.
 
 Els documents que gestionen els canvis són contractuals com les ofertes. Podeu veure un resum en vídeo aquí dels continguts que explicarem a continuació.
 
@@ -51,3 +53,15 @@ Un cop el client ha llegit, acceptat i signat el document, podem procedir a fer 
 - **Analitzeu bé els riscos**. Generalment, el client tampoc sap què implica tècnicament el que està demanant.
 - **Deixeu una mica de marge per als errors**. Un canvi a meitat d'un projecte pot tenir efectes indesitjats perquè potser no està tan ben planejat com imaginem. Deixeu unes hores de més i una mica més de pressupost per si no heu encertat amb la previsió.
 - **No feu res dels canvis fins que el client no signi**. Igual heu de desfer el que ja heu fet. No seria el primer cop.
+
+
+## QUÈ FER EN CAS D'IMPREVISTOS NOSTRES
+Igualment, sempre hi ha imprevistos a un projecte, que poden venir del propi desenvolupament o del client. Si ens trobem amb un problema:
+- Ens encallem.
+  - Depenent de la fase del cicle on V que ens trobem, anem retrocedint per veure què ha passat.
+  - Si estem a l'inici, ens falta informació? Hem fet alguna cosa malament? Com 
+- Com saber si anem endarrerits, a temps o adelantats respecte del calendari que té el client?
+  - Algú del grup ha d'anar revisant els 
+- Com informar el client dels problemes que poden aparèixer. Canvis de material, 
+Si el client porta un problema:
+- El client demana un canvi al projecte quan ja està començat. La gestió del canvi és important (recollir del curs passat).
