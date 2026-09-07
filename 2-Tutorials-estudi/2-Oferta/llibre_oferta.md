@@ -59,7 +59,7 @@ Aperture disposa d'un potent departament comercial que us proporcionarà una gui
 ```
 
 ```destacat-reading
-<!-- Placeholder. Link a l'exemple de fitxa de client (encara no la tenim, només un exemple). Serà una captura de pantalla -->
+Aquí us deixem un exemple de plantilla de client perquè la llegiu []
 
 - **BLOC 1. Dades de l'empresa**. Aquí trobareu una taula inicial que descriu l'empresa. Això us donarà pistes sobre el seu nivell tecnològic, la possible complexitat del treball.
 - **BLOC 2. Contacte i estructura administrativa**. Qui serà la persona de contacte. Això us marcarà quin llenguatge tecnològic heu de fer servir, quin registre de conversa i el nivell de formalitat que esperen de les vostres comunicacions.
@@ -70,7 +70,7 @@ Aperture disposa d'un potent departament comercial que us proporcionarà una gui
 Com podeu veure, hi ha molta feina a fer abans de començar un projecte per a un client. El primer pas serà la primera reunió. Hem de fer molt bona impressió. Reviseu el tutorial de reunions abans d'anar-hi.
 ```
 
-### Subcapítol 3. La plantilla de clarificació
+### Subcapítol 3. El document de requisits
 
 ```bloc-dialeg
 avatar: lidia_formal
@@ -79,7 +79,12 @@ rol: Responsable de Recursos Humans
 
 Des del Departament de Recursos Humans us hem preparat un document que us pot ajudar a organitzar l'estudi de l'oferta. El document porta les explicacions als diferents apartats.
 
-<!-- Link a la plantilla de clarificació. Encara no el tinc posat, serà una captura de pantalla -->
+```
+```bloc-boto
+text: Plantilla de requisits del projecte
+url:
+icona: fa-download
+estil: primari
 ```
 
 ---

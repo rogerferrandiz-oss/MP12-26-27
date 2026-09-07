@@ -73,7 +73,7 @@ Algunes pistes per fer l'oferta al Marc.
 
 Per fer el projecte, us ensenyarem a fer el procés en V baixa, que comença a partir del que hem recollit a l'oferta.
 
-### FASE 1. 
+### PAS 1. DEFINIR
 (Lídia) El primer pas per fer el projecte serà crear el llistat de requisits del projecte.
 
 

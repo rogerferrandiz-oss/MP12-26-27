@@ -1,0 +1,27 @@
+Codi,Ubicació,Any de compra,Processador,RAM,Targeta gràfica,Emmagatzematge,Font d'alimentació,Refrigeració,Monitor
+PC-A01,Línia A,2022,Intel Core i5-12400F,16 GB DDR4,NVIDIA RTX 3050 8 GB,SSD 500 GB,Genèrica 450 W sense certificar,Dissipador de sèrie,24" 1080p 75 Hz
+PC-A02,Línia A,2022,Intel Core i5-12400F,16 GB DDR4,NVIDIA RTX 3050 8 GB,SSD 500 GB,Genèrica 450 W sense certificar,Dissipador de sèrie,24" 1080p 75 Hz
+PC-A03,Línia A,2022,Intel Core i5-12400F,16 GB DDR4,NVIDIA RTX 3050 8 GB,SSD 500 GB,Genèrica 450 W sense certificar,Dissipador de sèrie,24" 1080p 75 Hz
+PC-A04,Línia A,2022,Intel Core i5-12400F,16 GB DDR4,NVIDIA RTX 3050 8 GB,SSD 500 GB,Genèrica 450 W sense certificar,Dissipador de sèrie,24" 1080p 75 Hz
+PC-A05,Línia A,2022,Intel Core i5-12400F,16 GB DDR4,NVIDIA RTX 3050 8 GB,SSD 500 GB,Genèrica 450 W sense certificar,Dissipador de sèrie,24" 1080p 75 Hz
+PC-B01,Línia B,2022,Intel Core i5-12400F,16 GB DDR4,NVIDIA RTX 3050 8 GB,SSD 500 GB,Genèrica 450 W sense certificar,Dissipador de sèrie,24" 1080p 75 Hz
+PC-B02,Línia B,2022,Intel Core i5-12400F,16 GB DDR4,NVIDIA RTX 3050 8 GB,SSD 500 GB,Genèrica 450 W sense certificar,Dissipador de sèrie,24" 1080p 75 Hz
+PC-B03,Línia B,2022,Intel Core i5-12400F,16 GB DDR4,NVIDIA RTX 3050 8 GB,SSD 500 GB,Genèrica 450 W sense certificar,Dissipador de sèrie,24" 1080p 75 Hz
+PC-B04,Línia B,2022,Intel Core i5-12400F,16 GB DDR4,NVIDIA RTX 3050 8 GB,SSD 500 GB,Genèrica 450 W sense certificar,Dissipador de sèrie,24" 1080p 75 Hz
+PC-B05,Línia B,2022,Intel Core i5-12400F,16 GB DDR4,NVIDIA RTX 3050 8 GB,SSD 500 GB,Genèrica 450 W sense certificar,Dissipador de sèrie,24" 1080p 75 Hz
+PC-C01,Línia C,2024,Intel Core i5-13400F,16 GB DDR4,NVIDIA RTX 3050 8 GB,SSD 1 TB,Corsair 650 W 80+ Bronze,Dissipador de sèrie,24" 1080p 144 Hz
+PC-C02,Línia C,2024,Intel Core i5-13400F,16 GB DDR4,NVIDIA RTX 3050 8 GB,SSD 1 TB,Corsair 650 W 80+ Bronze,Dissipador de sèrie,24" 1080p 144 Hz
+PC-C03,Línia C,2024,Intel Core i5-13400F,16 GB DDR4,NVIDIA RTX 3050 8 GB,SSD 1 TB,Corsair 650 W 80+ Bronze,Dissipador de sèrie,24" 1080p 144 Hz
+PC-C04,Línia C,2024,Intel Core i5-13400F,16 GB DDR4,NVIDIA RTX 3050 8 GB,SSD 1 TB,Corsair 650 W 80+ Bronze,Dissipador de sèrie,24" 1080p 144 Hz
+PC-C05,Línia C,2024,Intel Core i5-13400F,16 GB DDR4,NVIDIA RTX 3050 8 GB,SSD 1 TB,Corsair 650 W 80+ Bronze,Dissipador de sèrie,24" 1080p 144 Hz
+PC-V01,Sala VIP,2023,Intel Core i7-13700F,16 GB DDR4,NVIDIA RTX 3060 12 GB,SSD 1 TB,Corsair 650 W 80+ Bronze,Dissipador de sèrie,27" 1440p 144 Hz
+PC-V02,Sala VIP,2023,Intel Core i7-13700F,16 GB DDR4,NVIDIA RTX 3060 12 GB,SSD 1 TB,Corsair 650 W 80+ Bronze,Dissipador de sèrie,27" 1440p 144 Hz
+PC-V03,Sala VIP,2023,Intel Core i7-13700F,16 GB DDR4,NVIDIA RTX 3060 12 GB,SSD 1 TB,Corsair 650 W 80+ Bronze,Dissipador de sèrie,27" 1440p 144 Hz
+PC-V04,Sala VIP,2023,Intel Core i7-13700F,16 GB DDR4,NVIDIA RTX 3060 12 GB,SSD 1 TB,Corsair 650 W 80+ Bronze,Dissipador de sèrie,27" 1440p 144 Hz
+PC-V05,Sala VIP,2023,Intel Core i7-13700F,16 GB DDR4,NVIDIA RTX 3060 12 GB,SSD 1 TB,Corsair 650 W 80+ Bronze,Dissipador de sèrie,27" 1440p 144 Hz
+PC-S01,Lloc individual,2022,Intel Core i5-12400F,16 GB DDR4,NVIDIA RTX 3050 8 GB,SSD 500 GB,Genèrica 450 W sense certificar,Dissipador de sèrie,24" 1080p 75 Hz
+PC-SIM01,Simulador 1,2023,Intel Core i5-13400F,16 GB DDR4,NVIDIA RTX 3060 12 GB,SSD 1 TB,Corsair 650 W 80+ Bronze,Dissipador de sèrie,Tres pantalles 27" 1080p
+PC-SIM02,Simulador 2,2023,Intel Core i5-13400F,16 GB DDR4,NVIDIA RTX 3060 12 GB,SSD 1 TB,Corsair 650 W 80+ Bronze,Dissipador de sèrie,Tres pantalles 27" 1080p
+PC-SIM03,Simulador 3,2023,Intel Core i5-13400F,16 GB DDR4,NVIDIA RTX 3060 12 GB,SSD 1 TB,Corsair 650 W 80+ Bronze,Dissipador de sèrie,Tres pantalles 27" 1080p
+MINI-R01,Recepció,2023,Intel Core i3-1215U,8 GB DDR4,Integrada,SSD 256 GB,Adaptador extern 65 W,Passiva,24" 1080p 60 Hz
+PORT-M01,Despatx Marc,2023,Intel Core i7-12700H,16 GB DDR5,NVIDIA RTX 3050 Ti,SSD 1 TB,Adaptador extern 180 W,Ventilador intern,Pantalla integrada 15"
