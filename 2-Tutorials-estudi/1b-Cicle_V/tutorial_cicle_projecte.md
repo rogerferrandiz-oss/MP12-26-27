@@ -5,6 +5,7 @@ lidia_formal:  https://cv.copernic.cat/...
 -->
 
 # EL CICLE D'UN PROJECTE (capítol)
+
 ```destacat-info
 En aquest tutorial aprendràs:
 - Què és el cicle de desenvolupament en V per a fer projectes.
@@ -16,9 +17,10 @@ avatar: albert_formal
 nom: Albert Serrano
 rol: Mentor tècnic · Aperture Holistics Consulting
 
-Aquí no us explicarem cap tecnologia. Us explicarem com es fa un projecte a Aperture, sigui de xarxes, de maquinari o d'un full de càlcul.
+Aquí no us explicarem cap tecnologia. Us explicarem com es fa un projecte a Aperture, sigui de xarxes, de maquinari o d'un full de càlcul. L'aplicació pràctica és el que anirem practicant durant tot el curs. Val la pena entendre-ho bé un cop i no haver-hi de tornar.
 
-Això que veureu ara ho farem servir als cinc projectes del curs. **Els cinc**. Val la pena entendre-ho bé un cop i no haver-hi de tornar.
+- El tutorial sobre com desenvolupar un projecte anirà explicant el detall sobre què es fa en cada etapa.
+- El tutorial sobre com fer un protocol de proves i passar-lo us explicarà en detall com assegurar-nos que el que hem fet està bé.
 ```
 
 Aquest tutorial és curt a propòsit. Són tres idees i tres dibuixos.
@@ -38,7 +40,7 @@ Si no tens temps de llegir tot el tema, us hem deixat un vídeo que explica el m
 
 ---
 
-## Subcapítol 1. Les dues meitats (subcapítol)
+## Les dues meitats (subcapítol 1)
 
 ```bloc-dialeg
 avatar: lidia_formal
@@ -65,7 +67,8 @@ Si a l'oferta prometeu una cosa que després no podeu demostrar, teniu un proble
 
 ---
 
-## Subcapítol 2. Els tres nivells (subcapítol)
+## Els tres nivells de profunditat (subcapítol 2)
+
 ```bloc-dialeg
 avatar: albert_formal
 nom: Albert Serrano
@@ -75,7 +78,10 @@ Quan feu un projecte preneu decisions de tres tipus. Van de la més general a la
 
 Llegiu el dibuix de dalt a baix per la banda esquerra, i de baix a dalt per la banda dreta. Cada color té la seva parella al davant.
 
+
 [(https://cv.copernic.cat/pluginfile.php/29447/mod_resource/content/1/Cicle%20V%20original.png)]
+
+Es diu **cicle en V** per la forma del dibuix. La banda esquerra baixa cap al detall, la dreta puja cap al client.
 
 | Nivell | Baixant, decidiu | Pujant, demostreu |
 |---|---|---|
@@ -83,7 +89,7 @@ Llegiu el dibuix de dalt a baix per la banda esquerra, i de baix a dalt per la b
 | **2** | Com ho fareu | Que totes les peces funcionen juntes |
 | **3** | Què hi posareu exactament | Que cada peça funciona per separat |
 
-I al fons de la V hi ha el muntatge: fer-ho de veritat.
+I al fons de la V hi ha el muntatge: fer el projecte de veritat, un cop ja no hem de pensar ni tenir dubtes sobre com fer-ho.
 
 **Per què es puja en aquest ordre?**. Perquè si proveu primer el conjunt i falla, no sabreu quina peça n'és la culpable i us hi passareu hores. Si abans heu comprovat cada peça per separat, quan el conjunt falli ja sabreu que el problema és a la connexió entre peces, no a les peces.
 
@@ -91,13 +97,10 @@ Aquesta és la part que més us costarà d'acceptar, i us ho dic ara: provar cad
 
 El dia que us passeu tres hores buscant per què no va res i resulti que era un cable, us en recordareu.
 ```
-
-```destacat-info
-Es diu **cicle en V** per la forma del dibuix. La banda esquerra baixa cap al detall, la dreta puja cap al client.
-```
 ---
 
-## Subcapítol 3. El mateix cicle, dos projectes molt diferents (subcapítol)
+## El mateix cicle, dos projectes molt diferents (subcapítol 3)
+
 ```bloc-dialeg
 avatar: albert_formal
 nom: Albert Serrano
@@ -105,22 +108,21 @@ rol: Mentor tècnic · Aperture Holistics Consulting
 
 Aquí teniu el mateix dibuix aplicat a dos projectes que no s'assemblen gens. Compareu-los. La tecnologia canvia del tot; les caselles són les mateixes.
 
+Exemple 1: Un projecte d'ofimàtica
 [(https://cv.copernic.cat/pluginfile.php/29446/mod_resource/content/1/Cicle%20V%20ofimatica.png)]
 
+Exemple 2: Un projecte de xarxes
 [(https://cv.copernic.cat/pluginfile.php/29448/mod_resource/content/1/Cicle%20V%20xarxes.png)]
-
-No copieu el contingut d'aquests exemples al vostre projecte. El que heu de copiar és **l'estructura**, no les respostes. Cada client voldrà una cosa diferent, però el recorregut per a arribar a una entrega exitosa és sempre el mateix.
-```
-
-### Què tenen en comú
 
 Fixeu-vos que als dos exemples, la casella de dalt a la dreta (la prova davant el client) es pot fer **davant seu i en un minut**, i no cal saber res de tecnologia per entendre si ha anat bé o malament.
 
-Aquesta és la prova d'una bona prova d'acceptació: que el client la pugui entendre sense que li expliqueu res.
-
+```destacat-warning
+No copieu el contingut d'aquests exemples al vostre projecte. El que heu de copiar és **l'estructura**, no les respostes. Cada client voldrà una cosa diferent, però el recorregut per a arribar a una entrega exitosa és sempre el mateix.
+```
 ---
 
-## Subcapítol 4. On sou a cada moment (subcapítol)
+## On sou a cada moment (subcapítol 4)
+
 ```bloc-dialeg
 avatar: lidia_formal
 nom: Lídia García
@@ -138,14 +140,14 @@ El projecte dura sis setmanes i cada setmana esteu en un punt diferent del cicle
 | 6 | Nivell 1, dalt | Presentació: proves d'acceptació davant el client |
 ```
 
-## Subcapítol 5. La presentació final (subcapítol)
+## La presentació final (subcapítol 5)
 
 ```bloc-dialeg
 avatar: lidia_formal
 nom: Lídia García
 rol: Recursos Humans i Qualitat · Aperture Holistics Consulting
 
-L'últim dia no fareu una presentació explicant el que heu fet. Fareu passar les proves davant el client.
+L'últim dia no fareu una presentació explicant el que heu fet. Fareu passar les proves davant el client. Les proves d'acceptació amaguen tota la complexitat del sistema i estan orientades a que el client la pugui entendre sense que li expliqueu res.
 
 És més exigent i també més just: no depèn de com parleu, depèn de si funciona.
 ```

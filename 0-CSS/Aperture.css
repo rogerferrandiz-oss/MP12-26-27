@@ -448,4 +448,330 @@
     color: var(--aperture-text-muted);
     font-weight: 400;
 }
+
+/* ============================================================
+   APERTURE.CSS — AFEGITS v2
+   Per fusionar al final del mestre, abans del tancament </style>.
+   Tot scoped dins .aperture-tutorial-wrap.
+   ============================================================ */
+ 
+/* ---- Token que faltava al mestre ---- */
+.aperture-tutorial-wrap {
+    --aperture-button-min-height: 44px;
+}
+ 
+/* ============================================================
+   1. VARIANTS D'ALERTA QUE FALTAVEN
+   Els tokens --aperture-color-ideas i --aperture-color-audio
+   ja eren al mestre però orfes: cap regla els feia servir.
+   ============================================================ */
+ 
+.aperture-tutorial-wrap .aperture-alert-ideas {
+    border-color: var(--aperture-color-ideas);
+    background: #FFFDE7;
+    color: #7C4F00;
+}
+.aperture-tutorial-wrap .aperture-alert-ideas .aperture-alert-icon {
+    color: var(--aperture-color-ideas);
+}
+ 
+.aperture-tutorial-wrap .aperture-alert-tools {
+    border-color: var(--aperture-color-tools);
+    background: #F8F9FA;
+    color: var(--aperture-color-tools);
+}
+.aperture-tutorial-wrap .aperture-alert-tools .aperture-alert-icon {
+    color: var(--aperture-color-tools);
+}
+ 
+/* Reservat: transcripcions en àudio. No usar encara. */
+.aperture-tutorial-wrap .aperture-alert-audio {
+    border-color: var(--aperture-color-audio);
+    background: #E0F7FA;
+    color: var(--aperture-color-audio);
+}
+.aperture-tutorial-wrap .aperture-alert-audio .aperture-alert-icon {
+    color: var(--aperture-color-audio);
+}
+ 
+/* ---- Peces que faltaven de l'alerta crítica ---- */
+.aperture-tutorial-wrap .aperture-alert-critical-header-content {
+    display: flex;
+    align-items: center;
+    gap: var(--aperture-spacing-sm);
+}
+.aperture-tutorial-wrap .aperture-alert-critical .aperture-alert-icon {
+    color: var(--aperture-text-inverse);
+}
+.aperture-tutorial-wrap .aperture-alert-critical-body {
+    color: var(--aperture-text-primary);
+}
+ 
+/* ============================================================
+   2. BOTONS
+   Sempre sobre <a>, mai <button>: dins d'un Book de Moodle
+   un <button> no fa res i el purificador el pot eliminar.
+   ============================================================ */
+ 
+.aperture-tutorial-wrap .aperture-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--aperture-spacing-sm);
+    min-height: var(--aperture-button-min-height);
+    padding: var(--aperture-spacing-sm) var(--aperture-spacing-lg);
+    font-family: var(--aperture-font-display);
+    font-size: var(--aperture-font-size-base);
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: var(--aperture-radius-md);
+    cursor: pointer;
+    transition: all var(--aperture-transition-base);
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: var(--aperture-spacing-md);
+}
+ 
+.aperture-tutorial-wrap .aperture-btn--primari {
+    background: var(--aperture-cyan);
+    color: var(--aperture-text-inverse);
+    border-color: var(--aperture-cyan);
+}
+.aperture-tutorial-wrap .aperture-btn--primari:hover {
+    background: #005F8A;
+    border-color: #005F8A;
+    color: var(--aperture-text-inverse);
+    transform: translateY(-2px);
+    box-shadow: var(--aperture-shadow-md);
+}
+ 
+.aperture-tutorial-wrap .aperture-btn--secundari {
+    background: var(--aperture-orange);
+    color: var(--aperture-text-inverse);
+    border-color: var(--aperture-orange);
+}
+.aperture-tutorial-wrap .aperture-btn--secundari:hover {
+    background: #C44000;
+    border-color: #C44000;
+    color: var(--aperture-text-inverse);
+    transform: translateY(-2px);
+    box-shadow: var(--aperture-shadow-md);
+}
+ 
+.aperture-tutorial-wrap .aperture-btn--contorn {
+    background: transparent;
+    color: var(--aperture-cyan);
+    border-color: var(--aperture-cyan);
+}
+.aperture-tutorial-wrap .aperture-btn--contorn:hover {
+    background: var(--aperture-cyan);
+    color: var(--aperture-text-inverse);
+}
+ 
+.aperture-tutorial-wrap .aperture-btn:active { transform: translateY(0); }
+.aperture-tutorial-wrap .aperture-btn:focus-visible {
+    outline: var(--aperture-focus-width) solid var(--aperture-orange);
+    outline-offset: var(--aperture-focus-offset);
+}
+ 
+/* ============================================================
+   3. TARGETES I GRAELLA
+   --primari / --secundari substitueixen -blue / -orange.
+   ============================================================ */
+ 
+.aperture-tutorial-wrap .aperture-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: var(--aperture-spacing-lg);
+    margin: var(--aperture-spacing-lg) 0;
+}
+ 
+.aperture-tutorial-wrap .aperture-card {
+    background: var(--aperture-surface);
+    border: 1px solid var(--aperture-border-light);
+    border-radius: var(--aperture-radius-xl);
+    padding: var(--aperture-spacing-lg);
+    box-shadow: var(--aperture-shadow-sm);
+    transition: transform var(--aperture-transition-base),
+                box-shadow var(--aperture-transition-base),
+                border-color var(--aperture-transition-base);
+}
+.aperture-tutorial-wrap .aperture-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--aperture-shadow-lg);
+    border-color: var(--aperture-cyan);
+}
+.aperture-tutorial-wrap .aperture-card:focus-within {
+    border-color: var(--aperture-orange);
+    outline: 2px solid var(--aperture-orange);
+    outline-offset: 2px;
+}
+ 
+.aperture-tutorial-wrap .aperture-card-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: var(--aperture-radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--aperture-spacing-md);
+    font-size: 1.25rem;
+}
+.aperture-tutorial-wrap .aperture-card-icon--primari {
+    background: var(--aperture-cyan-light);
+    color: var(--aperture-cyan);
+}
+.aperture-tutorial-wrap .aperture-card-icon--secundari {
+    background: var(--aperture-orange-light);
+    color: var(--aperture-orange);
+}
+ 
+.aperture-tutorial-wrap .aperture-card-title {
+    font-family: var(--aperture-font-display);
+    font-weight: 700;
+    font-size: var(--aperture-font-size-lg);
+    margin-bottom: var(--aperture-spacing-sm);
+}
+.aperture-tutorial-wrap .aperture-card-description {
+    color: var(--aperture-text-secondary);
+    font-size: var(--aperture-font-size-sm);
+    line-height: var(--aperture-line-height-base);
+    margin-bottom: 0;
+}
+ 
+/* ============================================================
+   4. CODI
+   Sense botó "copia": necessitaria JavaScript.
+   ============================================================ */
+ 
+.aperture-tutorial-wrap .aperture-code,
+.aperture-tutorial-wrap p code,
+.aperture-tutorial-wrap li code,
+.aperture-tutorial-wrap td code {
+    font-family: var(--aperture-font-mono);
+    background: #F3F4F6;
+    padding: 0.2rem 0.4rem;
+    border-radius: var(--aperture-radius-sm);
+    font-size: 0.9em;
+    color: #B32032;
+}
+ 
+.aperture-tutorial-wrap .aperture-code-block {
+    background: var(--aperture-surface-dark);
+    color: #E6EDF3;
+    font-family: var(--aperture-font-mono);
+    font-size: var(--aperture-font-size-sm);
+    line-height: var(--aperture-line-height-base);
+    padding: var(--aperture-spacing-lg);
+    border-radius: var(--aperture-radius-md);
+    overflow-x: auto;
+    margin-bottom: var(--aperture-spacing-lg);
+}
+.aperture-tutorial-wrap .aperture-code-block code {
+    background: none;
+    color: inherit;
+    padding: 0;
+    font-size: inherit;
+}
+.aperture-tutorial-wrap .aperture-code-block-header {
+    display: flex;
+    align-items: center;
+    gap: var(--aperture-spacing-sm);
+    background: #2A2E33;
+    color: var(--aperture-text-inverse);
+    font-family: var(--aperture-font-display);
+    font-size: var(--aperture-font-size-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: var(--aperture-spacing-sm) var(--aperture-spacing-lg);
+    border-radius: var(--aperture-radius-md) var(--aperture-radius-md) 0 0;
+    margin-bottom: 0;
+}
+.aperture-tutorial-wrap .aperture-code-block-header + .aperture-code-block {
+    border-radius: 0 0 var(--aperture-radius-md) var(--aperture-radius-md);
+}
+ 
+/* ============================================================
+   5. DESPLEGABLE
+   HTML pur (<details>/<summary>), sense JavaScript.
+   PENDENT: verificar que el purificador de Moodle no el filtri.
+   ============================================================ */
+ 
+.aperture-tutorial-wrap .aperture-desplegable {
+    border: 1px solid var(--aperture-border-medium);
+    border-radius: var(--aperture-radius-lg);
+    background: var(--aperture-surface);
+    margin-bottom: var(--aperture-spacing-md);
+    overflow: hidden;
+}
+.aperture-tutorial-wrap .aperture-desplegable > summary {
+    display: flex;
+    align-items: center;
+    gap: var(--aperture-spacing-sm);
+    padding: var(--aperture-spacing-md) var(--aperture-spacing-lg);
+    min-height: var(--aperture-button-min-height);
+    box-sizing: border-box;
+    font-family: var(--aperture-font-display);
+    font-weight: 700;
+    color: var(--aperture-cyan);
+    cursor: pointer;
+    list-style: none;
+    background: var(--aperture-cyan-light);
+}
+.aperture-tutorial-wrap .aperture-desplegable > summary::-webkit-details-marker { display: none; }
+.aperture-tutorial-wrap .aperture-desplegable > summary::before {
+    content: "\25B8";              /* triangle dret */
+    display: inline-block;
+    transition: transform var(--aperture-transition-fast);
+}
+.aperture-tutorial-wrap .aperture-desplegable[open] > summary::before {
+    transform: rotate(90deg);
+}
+.aperture-tutorial-wrap .aperture-desplegable > summary:focus-visible {
+    outline: var(--aperture-focus-width) solid var(--aperture-orange);
+    outline-offset: -3px;
+}
+.aperture-tutorial-wrap .aperture-desplegable-body {
+    padding: var(--aperture-spacing-lg);
+}
+ 
+/* ============================================================
+   6. TAULES — canvi de nom --rubrica → --neutra
+   L'àlies --rubrica es manté fins que els documents ja
+   convertits estiguin actualitzats. Esborrar-lo després.
+   ============================================================ */
+ 
+.aperture-tutorial-wrap .aperture-table--neutra td:first-child,
+.aperture-tutorial-wrap .aperture-table--rubrica td:first-child {
+    color: var(--aperture-text-primary);
+    font-weight: 600;
+}
+.aperture-tutorial-wrap .aperture-table--neutra td:last-child,
+.aperture-tutorial-wrap .aperture-table--rubrica td:last-child {
+    color: var(--aperture-text-primary);
+    font-weight: 400;
+}
+ 
+/* ============================================================
+   7. RESPONSIVE per a les peces noves
+   ============================================================ */
+ 
+@media (max-width: 640px) {
+    .aperture-tutorial-wrap .aperture-grid {
+        grid-template-columns: 1fr;
+    }
+    .aperture-tutorial-wrap .aperture-btn {
+        display: flex;
+        width: 100%;
+    }
+    .aperture-tutorial-wrap .aperture-resources {
+        flex-direction: column;
+    }
+    .aperture-tutorial-wrap .aperture-resource-link {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
 </style>
