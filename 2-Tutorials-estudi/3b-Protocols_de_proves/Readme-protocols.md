@@ -1,11 +1,22 @@
 # ELS PROTOCOLS DE PROVES
-## QUÈ ÉS UN PROTOCOL DE PROVES 
+```destacat-info
+Què aprendreu a fer en aquest tutorial
+- Per què s'han de provar les coses
+- Què és un protocol de proves i com redactar-los
+- Com fer les proves i recollir les evidències que demostren que el que fem funciona
 
-Abans de posar-nos a fer el projecte, i seguint la guia del projecte en V, a mesura que anem fent el disseny, ens hem d'anar pensant què farem per demostrar que el que estem fent:
+**El protocol de proves són uns documents que defineixen, pas a pas, les instruccions i les dades d'entrada necessàries que serveixen per verificar que la resposta a aquestes entrades és la sortida que s'espera del projecte.**
+
+```
+
+(Albert) Abans de posar-nos a fer el projecte, i seguint la guia del projecte en V, a mesura que anem fent el disseny, ens hem d'anar pensant què farem per demostrar que el que estem fent:
 - Funciona correctament.
 - El disseny compleix els requisits de l'oferta al client.
 
-El protocol de proves són uns documents que defineixen, pas a pas, les instruccions i les dades d'entrada necessàries que serveixen per verificar que la resposta a aquestes entrades és la sortida que s'espera del projecte.
+```destacat-video
+No tens temps o no vols llegir el tutorial? Aquí tens un resum en vídeo que et donarà els conceptes principals. Però et recomanem que a més facis 
+
+```
 
 ### CARACTERÍSTIQUES DELS PROTOCOLS
 - **Repetibilitat**. Un protocol de proves ha de garantir la repetibilitat. Permet que qualsevol persona seguint el protocol, repeteixi la mateixa prova de la mateixa manera i ha de poder obtenir el mateix resultat.
