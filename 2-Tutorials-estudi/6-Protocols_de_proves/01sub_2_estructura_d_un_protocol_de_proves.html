@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<title>ESTRUCTURA D&#x27;UN PROTOCOL DE PROVES</title>
+</head>
+<body>
+<div class="aperture-tutorial-wrap">
+<div class="aperture-dialogue">
+  <img class="aperture-dialogue-avatar" src="https://cv.copernic.cat/pluginfile.php/29324/mod_resource/content/1/Albert%20presentaci%C3%B3.png" alt="Avatar de Albert Serrano">
+  <div class="aperture-dialogue-content">
+    <div class="aperture-dialogue-header">
+      <p class="aperture-dialogue-name">Albert Serrano</p>
+      <span class="aperture-dialogue-role">Mentor tècnic · Aperture Holistics Consulting</span>
+    </div>
+    <div class="aperture-dialogue-text">
+<p>Un protocol de proves té una estructura definida per:</p>
+<ol>
+<li>
+<p><strong>Què volem demostrar</strong>. Han de ser accions concretes. No val "funciona bé" o "no falla res". Per exemple:</p>
+<ul>
+<li>Que els ordinadors d'una xarxa informàtica es veuen entre ells.</li>
+<li>Que la pàgina web té els colors que ha demanat el client.</li>
+<li>Que els usuaris d'un perfil concret no tenen accés a les carpetes més restringides del servidor.</li>
+</ul>
+</li>
+<li>
+<p><strong>Com ho podem demostrar</strong>. Aquesta és la part que té més dificultat en generar. Hem d'esbrinar un procediment per complir amb les característiques anteriors de repetibilitat, objectivitat i traçabilitat. La demostració ha de complir amb aquestes propietats:</p>
+<ul>
+<li>Condicions inicials clares.</li>
+<li>Estructura de passos per a aconseguir el resultat buscat.</li>
+<li>Resultats esperats i condicions d'error.</li>
+</ul>
+</li>
+</ol>
+<table class="aperture-table aperture-table--neutra">
+<thead>
+<tr>
+<th>Prova</th>
+<th>Xarxes</th>
+<th>Web</th>
+<th>Servidor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Condicions inicials clares</td>
+<td>Els dos ordinadors i la xarxa estan encesos i interconnectats.</td>
+<td>La pàgina web està visible a pantalla.</td>
+<td>Tenim l'ordinador client i el servidor encesos, els perfils d'usuaris definits i la pantalla de login encesa al client.</td>
+</tr>
+<tr>
+<td>Estructura de passos per a aconseguir el resultat buscat.</td>
+<td>Obrir un terminal a un dels ordinadors i fer un ping a l'adreça de l'altre ordinador.</td>
+<td>Obrir un selector de color al navegador i agafar el color que volem consultar.</td>
+<td>S'ha de posar un usuari que no pot accedir a les carpetes del servidor i sol·licitar accés.</td>
+</tr>
+<tr>
+<td>Resultats esperats i condicions d'error.</td>
+<td>Que els paquets enviats es reben a l'altra banda. Si no es reben, és un error.</td>
+<td>Que el color de pantalla és el que demanava el client. Si no ho és, és un error.</td>
+<td>El servidor denega l'accés a les carpetes dient que l'usuari no té permisos. Si el deixa passar, és un error.</td>
+</tr>
+</tbody>
+</table>
+    </div>
+      <div class="aperture-dialogue-links">
+        <a class="aperture-dialogue-link" href="https://cv.copernic.cat/mod/book/view.php?id=23462"><i class="fas fa-link" aria-hidden="true"></i> Guia d&#x27;estil d&#x27;Aperture</a>
+      </div>
+  </div>
+</div>
+</div>
+</body>
+</html>

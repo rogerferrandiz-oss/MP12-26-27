@@ -3,6 +3,7 @@
 
 ```destacat-warning
 Recordeu:
+
 - **L'entrega és una feina d'equip, no personal**. La feina ja hauria d'estar revisada pel seu autor. Que el company ho repassi de nou. No ho deixeu pel darrer dia.
 - Si ho teniu tot ben organitzat i cada membre del grup ha fet la seva feina quan tocava, això només us portarà una estoneta.
 ```

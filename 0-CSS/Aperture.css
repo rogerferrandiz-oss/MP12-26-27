@@ -107,7 +107,11 @@
     margin-top: 2px;
 }
 .aperture-tutorial-wrap .aperture-alert-content { flex: 1; }
-.aperture-tutorial-wrap .aperture-alert strong { display: block; margin-bottom: var(--aperture-spacing-xs); }
+/*.aperture-tutorial-wrap .aperture-alert strong { display: block; margin-bottom: var(--aperture-spacing-xs); }*/
+.aperture-tutorial-wrap .aperture-alert p > strong:first-child,
+.aperture-tutorial-wrap .aperture-alert li > strong:first-child {display: block; margin-bottom: var(--aperture-spacing-xs);}
+.aperture-tutorial-wrap .aperture-parts-list p > strong:first-child,
+.aperture-tutorial-wrap .aperture-parts-list li > strong:first-child {display: block; margin-bottom: var(--aperture-spacing-xs);}
 .aperture-tutorial-wrap .aperture-alert-info    { border-color: var(--aperture-color-info);    background: var(--aperture-cyan-light); }
 .aperture-tutorial-wrap .aperture-alert-info    .aperture-alert-icon { color: var(--aperture-color-info); }
 .aperture-tutorial-wrap .aperture-alert-warning { border-color: var(--aperture-color-warning);  background: var(--aperture-orange-light); }
@@ -451,7 +455,7 @@
 
 /* ============================================================
    APERTURE.CSS — AFEGITS v2
-   Per fusionar al final del mestre, abans del tancament </style>.
+   Per fusionar al final del mestre, abans del tancament /style.
    Tot scoped dins .aperture-tutorial-wrap.
    ============================================================ */
  

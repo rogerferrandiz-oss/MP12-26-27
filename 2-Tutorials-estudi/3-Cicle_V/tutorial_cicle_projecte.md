@@ -1,11 +1,5 @@
-!-- PERSONATGES -->
-<!--
-albert_formal: https://cv.copernic.cat/...
-lidia_formal:  https://cv.copernic.cat/...
--->
 
-# EL CICLE D'UN PROJECTE (capítol)
-
+## EL CICLE D'UN PROJECTE
 ```destacat-info
 En aquest tutorial aprendràs:
 - Què és el cicle de desenvolupament en V per a fer projectes.
@@ -34,13 +28,13 @@ Aquest tutorial és curt a propòsit. Són tres idees i tres dibuixos.
 ```destacat-video
 Si no tens temps de llegir tot el tema, us hem deixat un vídeo que explica el material. El podeu veure i després llegir, o a la inversa.
 
-[placeholder de vídeo resum]
+(aquí va el vídeo incrustat)
 
 ```
 
 ---
 
-## Les dues meitats (subcapítol 1)
+### Les dues meitats 
 
 ```bloc-dialeg
 avatar: lidia_formal
@@ -59,6 +53,7 @@ L'oferta no és paperassa prèvia. És la llista de promeses. Quan el client la 
 Aquesta és la diferència entre una empresa seriosa i una que no ho és. No prometre menys, sinó prometre coses que es puguin comprovar.
 
 Un client mai no discuteix amb una prova. Discuteix sempre amb una opinió.
+
 ```
 
 ```destacat-warning
@@ -67,7 +62,7 @@ Si a l'oferta prometeu una cosa que després no podeu demostrar, teniu un proble
 
 ---
 
-## Els tres nivells de profunditat (subcapítol 2)
+### Els tres nivells de profunditat
 
 ```bloc-dialeg
 avatar: albert_formal
@@ -78,8 +73,7 @@ Quan feu un projecte preneu decisions de tres tipus. Van de la més general a la
 
 Llegiu el dibuix de dalt a baix per la banda esquerra, i de baix a dalt per la banda dreta. Cada color té la seva parella al davant.
 
-
-[(https://cv.copernic.cat/pluginfile.php/29447/mod_resource/content/1/Cicle%20V%20original.png)]
+![Diagrama del cicle en V](https://cv.copernic.cat/pluginfile.php/29447/mod_resource/content/1/Cicle%20V%20original.png)
 
 Es diu **cicle en V** per la forma del dibuix. La banda esquerra baixa cap al detall, la dreta puja cap al client.
 
@@ -97,9 +91,10 @@ Aquesta és la part que més us costarà d'acceptar, i us ho dic ara: provar cad
 
 El dia que us passeu tres hores buscant per què no va res i resulti que era un cable, us en recordareu.
 ```
+
 ---
 
-## El mateix cicle, dos projectes molt diferents (subcapítol 3)
+### El mateix cicle, dos projectes molt diferents
 
 ```bloc-dialeg
 avatar: albert_formal
@@ -109,19 +104,20 @@ rol: Mentor tècnic · Aperture Holistics Consulting
 Aquí teniu el mateix dibuix aplicat a dos projectes que no s'assemblen gens. Compareu-los. La tecnologia canvia del tot; les caselles són les mateixes.
 
 Exemple 1: Un projecte d'ofimàtica
-[(https://cv.copernic.cat/pluginfile.php/29446/mod_resource/content/1/Cicle%20V%20ofimatica.png)]
+![El mateix diagrama aplicat a ofimàtica](https://cv.copernic.cat/pluginfile.php/29446/mod_resource/content/1/Cicle%20V%20ofimatica.png)
 
 Exemple 2: Un projecte de xarxes
-[(https://cv.copernic.cat/pluginfile.php/29448/mod_resource/content/1/Cicle%20V%20xarxes.png)]
+![El mateix diagrama aplicat a xarxes](https://cv.copernic.cat/pluginfile.php/29448/mod_resource/content/1/Cicle%20V%20xarxes.png)
 
 Fixeu-vos que als dos exemples, la casella de dalt a la dreta (la prova davant el client) es pot fer **davant seu i en un minut**, i no cal saber res de tecnologia per entendre si ha anat bé o malament.
+```
 
 ```destacat-warning
 No copieu el contingut d'aquests exemples al vostre projecte. El que heu de copiar és **l'estructura**, no les respostes. Cada client voldrà una cosa diferent, però el recorregut per a arribar a una entrega exitosa és sempre el mateix.
 ```
 ---
 
-## On sou a cada moment (subcapítol 4)
+### On sou a cada moment
 
 ```bloc-dialeg
 avatar: lidia_formal
@@ -134,13 +130,14 @@ El projecte dura sis setmanes i cada setmana esteu en un punt diferent del cicle
 |---|---|---|
 | 1 | Nivell 1, baixant | Document de requisits |
 | 2 | Nivell 1, tancat | Oferta i presentació al client |
-| 3 | Nivells 2 i 3, baixant | Disseny i protocols de proves |
-| 4 | Fons de la V | Reunió de seguiment |
-| 5 | Nivells 3 i 2, pujant | Verificació tècnica, auditoria interna i entrega |
-| 6 | Nivell 1, dalt | Presentació: proves d'acceptació davant el client |
+| 3 | Nivells 2 i 3, baixant | Disseny dels protocols de proves i implementació |
+| 4 | Fons de la V | Implementació del disseny, Reunió de seguiment, proves unitàries |
+| 5 | Nivells 3 i 2, pujant | Proves d'integració i acceptació, auditoria interna |
+| 6 | Nivell 1, dalt | Entrega i presentació: proves d'acceptació davant el client |
+
 ```
 
-## La presentació final (subcapítol 5)
+### La presentació final
 
 ```bloc-dialeg
 avatar: lidia_formal
@@ -153,7 +150,8 @@ L'últim dia no fareu una presentació explicant el que heu fet. Fareu passar le
 ```
 
 ```destacat-critic
-Titol: Errors que veiem cada any
+titol: Errors que veiem cada any
+
 - Prometre a l'oferta coses que després no es poden comprovar.
 - Passar al muntatge sense haver escrit com es provarà.
 - Provar-ho tot de cop al final, quan ja no hi ha temps per arreglar res.
