@@ -1,11 +1,3 @@
-<!-- PERSONATGES -->
-<!--
-albert_formal:  https://cv.copernic.cat/pluginfile.php/29324/mod_resource/content/1/Albert%20presentaci%C3%B3.png
-albert_content: https://cv.copernic.cat/pluginfile.php/29325/mod_resource/content/1/Albert%20explica.png
-albert_serios:  https://cv.copernic.cat/pluginfile.php/29326/mod_resource/content/1/Albert%20seri%C3%B3s.png
-lidia_formal:   https://cv.copernic.cat/pluginfile.php/29254/mod_resource/content/2/lidia-normal-avatar.png
-lidia_seriosa:  https://cv.copernic.cat/pluginfile.php/29322/mod_resource/content/1/L%C3%ADdia%20seriosa.png
--->
 
 ## COM DESENCALLAR-SE
 

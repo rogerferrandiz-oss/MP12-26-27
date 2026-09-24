@@ -36,6 +36,8 @@ nom: Lídia García
 rol: Recursos Humans i Qualitat · Aperture Holistics Consulting
 
 Estareu en tot moment assistits per nosaltres, tant des de la part tècnica com de procediment, i us anirem donant referència a tots els tutorials i informacions que necessitareu per fer un projecte "a la manera d'Aperture".
+
+També insistirem molt en la comunicació i els vostres "soft skills", més que en la part tècnica, que aquesta la teniu dels estudis als mòduls del cicle formatiu.
 ```
 
 ```bloc-dialeg
@@ -43,7 +45,9 @@ avatar: albert_formal
 nom: Albert Serrano
 rol: Mentor tècnic · Aperture Holistics Consulting
 
-També us donarem informació destacada, consells i instruccions que us ajudaran a obtenir un resultat final que el client doni per bo.
+Us donarem informació destacada, consells i instruccions que us ajudaran a obtenir un resultat final que el client doni per bo.
+
+Així, comencem!!
 ```
 
 ```bloc-dialeg
@@ -51,9 +55,9 @@ avatar: lidia_formal
 nom: Lídia García
 rol: Recursos Humans i Qualitat · Aperture Holistics Consulting
 
-També insistirem molt en la comunicació i els vostres "soft skills", més que en la part tècnica, que aquesta la teniu dels estudis als mòduls del cicle formatiu.
+Abans de començar, mireu-vos aquest esquema. És el camí sencer d'un projecte a Aperture, i el tindreu penjat a l'aula durant tot el curs.
 
-Així, comencem!!
+(imatge del mapa general del projecte al Moodle).
 ```
 
 ## EL CLIENT
@@ -103,6 +107,8 @@ El primer que heu de fer, és llegir la fitxa del client, per conèixer-lo i ent
 ```bloc-recursos
 - La fitxa de client de Technoplay | https://docs.google.com/document/d/1eKFoxKRtKU-pahZdOzFb60XBPnbByHMHXilSAa4RFrg/edit?usp=sharing | fa-file-lines
 - Inventari de material del centre de jocs | https://drive.google.com/file/d/1VpKra6qfVlLBJszrltVRLtad8Fw0IP45/view?usp=sharing | fa-file-lines
+- El croquis del local | https://drive.google.com/file/d/1CNKT6IstR6B43jwma4lPK9Pw10K1tpTC/view?usp=sharing | fa-image
+- La foto del cartell de la competència | https://drive.google.com/file/d/1D7418xiwDLxa0xVcUh7nMkepjK8b3Glj/view?usp=sharing | fa-image
 ````
 
 ```destacat-info
@@ -128,7 +134,9 @@ Un cop hem llegit l'oferta i apuntat els dubtes, és el moment de continuar el p
 Amb aquest document ens assegurem que tenim clar què tenim, quina informació ens manca i si hem entès correctament tot el que ens demana el client.
 
 enllacos:
-Plantilla de document de requisits |  | fa-file
+Plantilla de document de requisits | https://docs.google.com/document/d/15DwsrXt9-UDURAnkONmM-uUDogjX3uPLl9xUtNhtdjs/edit?usp=sharing | fa-file
+
+El document té alguns apartats omplerts per tal que veieu com es fa, i un text en color taronja que hem afegit a la plantilla real. Esperem que us ajudi.
 ```
 
 ```destacat-info
@@ -166,19 +174,27 @@ Tots els tutorials tenen un vídeo explicatiu.
 ```bloc-recursos
 - Com fer un correu electrònic professional | https://cv.copernic.cat/mod/book/view.php?id=23367 | fa-link
 - Com fer i portar una reunió | https://cv.copernic.cat/mod/book/view.php?id=23450&chapterid=765 | fa-link
-- Plantilla de convocatòria de reunió |  | fa-edit
+- Plantilla de convocatòria de reunió | https://docs.google.com/document/d/1Ff0I5ejRKRU8ipzBsiMyY3bvhIIlv7pNr9Of2pasC44/edit?usp=sharing | fa-edit
 ```
 
 ### CONVOQUEU LA REUNIÓ
+```bloc-dialeg
+avatar: lidia_formal
+nom: Lídia García
+rol: Recursos Humans i Qualitat · Aperture Holistics Consulting
+
 Feu el correu de contacte, amb una convocatòria de reunió que tingui un ordre del dia clar, i espereu la seva resposta. Prepareu la reunió tal i com s'explica al tutorial. 
+```
 
 ```destacat-info
 Algunes coses que podeu tenir en compte són:
 
-- Sabeu la causa de les apagades dels ordinadors?
-- Hi ha alguna especificació dels ordinadors que no tenim?
-- Us ha explicat quin és el manteniment actual dels ordinadors? O quantes hores estan encesos a diari i funcionant els ordinadors?
-- Què vol millorar de les instal·lacions actuals? Resolució, fps, refresc dels monitors, el soroll?
+- A l'inventari hi ha **què** té muntat el Marc. No hi ha **què li falla**. Això només us ho pot dir ell.
+- Fallen tots els equips igual? Fallen tots? Cada quant?
+- Quantes hores estan encesos els ordinadors cada dia?
+- Quin manteniment els fan ara? Qui el fa i cada quant?
+- Els clients es queixen d'alguna cosa més, a part dels reinicis?
+- Hi ha algú més, a part del Marc, que us pugui explicar com funciona el local al dia a dia?
 ```
 
 #### NECESSITEU FER UNA ACTA DE LA REUNIÓ
@@ -195,7 +211,27 @@ enllacos:
 - Plantilla d'acta de reunió | https://docs.google.com/document/d/1Q1tXpKocFdQcPpjOjRS1MY8jm0IvIjOLvIToUndxHag/edit?usp=sharing | fa-link
 ```
 
-### REDACTAR L'OFERTA
+### ACTUALITZEU EL DOCUMENT DE REQUISITS
+```bloc-dialeg
+avatar: albert_formal
+nom: Albert Serrano
+rol: Mentor tècnic · Aperture Holistics Consulting
+
+Abans de posar-vos amb l'oferta, torneu al document de requisits i ompliu l'últim apartat amb el que us ha dit el Marc.
+
+Segur que hi ha requisits que heu d'afegir, canviar o esborrar. I si hi ha algun requisit que encara no sabeu com comprovarem que es compleix, no podeu continuar: torneu a preguntar-li.
+
+Això també me l'heu d'ensenyar. No vull que ningú escrigui una oferta sense saber què està prometent.
+```
+
+```destacat-warning
+Fins que no tingueu aquesta segona validació, no comenceu a redactar l'oferta.
+
+El motiu és senzill: tot el que poseu a l'oferta és una promesa, i l'últim dia del projecte haureu de demostrar davant del Marc que l'heu complerta. Si prometeu una cosa que no sabeu comprovar, ja heu perdut.
+
+```
+
+## REDACTAR L'OFERTA
 ```bloc-dialeg
 avatar: lidia_formal
 nom: Lídia García
@@ -209,6 +245,17 @@ enllacos:
 - Tutorial sobre com fer una oferta | https://cv.copernic.cat/mod/book/view.php?id=23450 | fa-link
 
 I si malgrat tot encara teniu dubtes o hi ha problemes perquè no sabeu alguna cosa de la tecnologia, sempre podeu enviar més preguntes al client. Que siguin per escrit és millor, perquè evita mals entesos en el futur.
+
+Per fer el pressupost, us heu de basar en els preus del nostre proveïdor:
+
+enllacos:
+- Llista de preus de La Botiga del PC | https://docs.google.com/spreadsheets/d/1qz62gDEjMlmAi_B1gGeE6bQ02bykN1JLw3ExLJCQsCc/edit?usp=sharing | fa-database
+
+És molt important que per fer el calendari tingueu en compte que el projecte el farem seguint el procés en V, que implica que farem tot un seguit de proves que s'han d'incloure en el calendari. 
+
+enllacos:
+- Tutorial del cicle en V | https://cv.copernic.cat/mod/book/view.php?id=23673 | fa-link
+
 ```
 
 ```destacat-ideas
@@ -231,36 +278,29 @@ I si malgrat tot encara teniu dubtes o hi ha problemes perquè no sabeu alguna c
 
 - No us deixeu les vostres hores ni els desplaçaments.
 
-enllacos:
-- Llista de preus de La Botiga del PC |  | fa-database
-
 ```
 
 ```destacat-warning
-És molt important que per fer el calendari tingueu en compte que el projecte el farem seguint el procés en V, que implica que farem tot un seguit de proves que s'han d'incloure en el calendari. 
-
-Teniu el tutorial aquí:
-
-enllacos:
-- Tutorial del cicle en V | https://cv.copernic.cat/mod/book/view.php?id=23673 | fa-link
-
 L'oferta és un document fonamental perquè un cop ens l'acceptin, el projecte surti bé i a la primera. Teniu temps de sobres per fer un bon treball. No és una competició de velocitat, sinó una feina on heu de pensar, i molt.
 ```
 
 ### EL SEGUIMENT DE L'OFERTA
-(Albert) Quan tingueu l'oferta avançada, us demanaré que me l'ensenyeu, i només l'entregareu al Marc si jo us dono l'aprovat. Segurament us donaré indicacions per millorar el treball i que el client vegi un treball professional i que encaixa amb les seves necessitats. I això ho farem tants cops com sigui necessari. No podem permetre que de l'empresa surti una oferta que ens faci perdre el client o pitjor, el client i els diners.
+```bloc-dialeg
+avatar: albert_formal
+nom: Albert Serrano
+rol: Mentor tècnic · Aperture Holistics Consulting
+
+Quan tingueu l'oferta avançada, us demanaré que me l'ensenyeu, i només l'entregareu al Marc si jo us dono l'aprovat. Segurament us donaré indicacions per millorar el treball i que el client vegi un treball professional i que encaixa amb les seves necessitats. I això ho farem tants cops com sigui necessari. No podem permetre que de l'empresa surti una oferta que ens faci perdre el client o pitjor, el client i els diners.
+```
 
 ### L'ENTREGA DE L'OFERTA
-(Lídia) Un cop tingueu l'oferta completa, l'envieu amb un correu electrònic al client, i prepareu la presentació que mostrareu a la reunió de presentació. Aquesta reunió és molt important perquè segurament sortireu d'ella amb un sí o un potser (que pot ser un no). I compteu que el client un cop vegi l'oferta i l'entengui, demani algun canvi més abans de donar el sí. No és dolent ni és que heu fet malament la feina. Són coses habituals.
+```bloc-dialeg
+avatar: lidia_formal
+nom: Lídia García
+rol: Recursos Humans i Qualitat · Aperture Holistics Consulting
 
-## EL PROJECTE
-(Albert) Si hem arribat fins aquí, és que fem la feina millor que la competència. Heu de pensar que normalment les empreses quan demanen ofertes, ho fan a dues o tres empreses, per tenir més dades, més informació i fan servir el que es posa en unes ofertes per demar-ho a les altres per un preu igual o inferior. Moltes ofertes bones es perden perquè altres empreses han presentat un preu millor o una solució més eficient. No passa res.
+Un cop tingueu l'oferta completa, l'envieu amb un correu electrònic al client, i prepareu la presentació que mostrareu a la reunió de presentació.
 
-Per fer el projecte, us ensenyarem a fer el procés en V baixa, que comença a partir del que hem recollit a l'oferta.
+Aquesta reunió és molt important perquè segurament sortireu d'ella amb un sí o un potser (que pot ser un no). I compteu que el client un cop vegi l'oferta i l'entengui, demani algun canvi més abans de donar el sí. No és dolent ni és que heu fet malament la feina. Són coses habituals.
+```
 
-### PAS 1. DEFINIR
-(Lídia) El primer pas per fer el projecte serà crear el llistat de requisits del projecte.
-
-
-
-Algunes coses a tenir en compte 
