@@ -1,0 +1,27 @@
+Codi,Ubicació,Nivell de pols,Què s'ha trobat en obrir l'equip,Altres observacions
+PC-A01,Línia A,Alt,"Font genèrica de 450 W. L'etiqueta indica 12 V / 30 A. Ventilador de la font amb pols acumulada. Aletes del dissipador de CPU plenes de pols. En treure el dissipador, la pasta tèrmica és seca i esquerdada.",Entrada d'aire inferior de la caixa sense filtre.
+PC-A02,Línia A,Alt,Font genèrica de 450 W. L'etiqueta indica 12 V / 30 A. Ventilador de la font amb pols acumulada. Aletes del dissipador de CPU plenes de pols.,Entrada d'aire inferior de la caixa sense filtre.
+PC-A03,Línia A,Alt,Font genèrica de 450 W. L'etiqueta indica 12 V / 30 A. Ventilador de la font amb pols acumulada. Aletes del dissipador de CPU plenes de pols. Brunzit audible a la font quan es posa en càrrega.,Entrada d'aire inferior de la caixa sense filtre.
+PC-A04,Línia A,Alt,Font genèrica de 450 W. L'etiqueta indica 12 V / 30 A. Ventilador de la font amb pols acumulada. Aletes del dissipador de CPU plenes de pols.,Entrada d'aire inferior de la caixa sense filtre.
+PC-A05,Línia A,Alt,Font genèrica de 450 W. L'etiqueta indica 12 V / 30 A. Ventilador de la font amb pols acumulada. Aletes del dissipador de CPU plenes de pols.,Entrada d'aire inferior de la caixa sense filtre.
+PC-B01,Línia B,Alt,Font genèrica de 450 W. L'etiqueta indica 12 V / 30 A. Ventilador de la font amb pols acumulada. Aletes del dissipador de CPU plenes de pols.,Entrada d'aire inferior de la caixa sense filtre.
+PC-B02,Línia B,Alt,Font genèrica de 450 W. L'etiqueta indica 12 V / 30 A. Ventilador de la font amb pols acumulada. Aletes del dissipador de CPU plenes de pols. Brunzit audible a la font quan es posa en càrrega.,Entrada d'aire inferior de la caixa sense filtre.
+PC-B03,Línia B,Alt,Font genèrica de 450 W. L'etiqueta indica 12 V / 30 A. Ventilador de la font amb pols acumulada. Aletes del dissipador de CPU plenes de pols. La targeta gràfica no està cargolada a la caixa i es vincla cap avall.,Entrada d'aire inferior de la caixa sense filtre.
+PC-B04,Línia B,Alt,Font genèrica de 450 W. L'etiqueta indica 12 V / 30 A. Ventilador de la font amb pols acumulada. Aletes del dissipador de CPU plenes de pols.,Entrada d'aire inferior de la caixa sense filtre.
+PC-B05,Línia B,Alt,Font genèrica de 450 W. L'etiqueta indica 12 V / 30 A. Ventilador de la font amb pols acumulada. Aletes del dissipador de CPU plenes de pols. El connector de 24 pins de la placa base té una marca marronosa a dos dels pins. El connector del cable de la font té la mateixa marca.,L'equip arrenca i funciona fins que s'apaga sol.
+PC-C01,Línia C,Mitjà,Font Corsair 650 W en bon estat. Pols moderada al dissipador i als ventiladors.,Monitor connectat per HDMI.
+PC-C02,Línia C,Mitjà,Font Corsair 650 W en bon estat. Pols moderada al dissipador i als ventiladors.,"Monitor connectat amb un cable HDMI antic sense marcatge. A la configuració de pantalla de Windows, la freqüència és de 60 Hz."
+PC-C03,Línia C,Mitjà,Font Corsair 650 W en bon estat. Pols moderada al dissipador i als ventiladors.,Monitor connectat per HDMI.
+PC-C04,Línia C,Mitjà,Font Corsair 650 W en bon estat. Pols moderada al dissipador i als ventiladors.,"Monitor connectat amb un cable HDMI antic sense marcatge. A la configuració de pantalla de Windows, la freqüència és de 60 Hz."
+PC-C05,Línia C,Mitjà,Font Corsair 650 W en bon estat. Pols moderada al dissipador i als ventiladors.,Monitor connectat per HDMI.
+PC-V01,Sala VIP,Mitjà,Dos mòduls de 8 GB a les ranures A2 i B2. Queden dues ranures lliures. Pols moderada.,Programa de retransmissió instal·lat.
+PC-V02,Sala VIP,Mitjà,Dos mòduls de 8 GB a les ranures A1 i A2. Les ranures B1 i B2 són lliures. Pols moderada.,Programa de retransmissió instal·lat.
+PC-V03,Sala VIP,Mitjà,Dos mòduls de 8 GB a les ranures A2 i B2. Queden dues ranures lliures. Pols moderada.,Programa de retransmissió instal·lat.
+PC-V04,Sala VIP,Mitjà,Dos mòduls de 8 GB a les ranures A2 i B2. Queden dues ranures lliures. Pols moderada.,Programa de retransmissió instal·lat.
+PC-V05,Sala VIP,Mitjà,Dos mòduls de 8 GB a les ranures A2 i B2. Queden dues ranures lliures. Pols moderada.,Programa de retransmissió instal·lat.
+PC-S01,Lloc individual,Alt,Font genèrica de 450 W. L'etiqueta indica 12 V / 30 A. Ventilador de la font amb pols acumulada. Aletes del dissipador de CPU plenes de pols.,Entrada d'aire inferior de la caixa sense filtre.
+PC-SIM01,Simulador 1,Molt alt,"Capa de pols, pèls i sorra a la part inferior de la caixa. Dissipador de CPU i ventiladors de la gràfica bruts. Pasta tèrmica seca.",Torre a terra. L'entrada d'aire de la caixa és per sota i queda a pocs centímetres del terra.
+PC-SIM02,Simulador 2,Molt alt,"Capa de pols, pèls i sorra a la part inferior de la caixa. Dissipador de CPU i ventiladors de la gràfica bruts. Pasta tèrmica seca. Un ventilador frontal de la caixa té una aspa trencada i no gira.","Torre a terra, arran de paret. L'entrada d'aire és per sota."
+PC-SIM03,Simulador 3,Molt alt,"Capa de pols, pèls i sorra a la part inferior de la caixa. Dissipador de CPU i ventiladors de la gràfica bruts. Pasta tèrmica seca.",Torre a terra. L'entrada d'aire de la caixa és per sota.
+MINI-R01,Recepció,—,No s'ha obert.,Fora de l'abast del projecte.
+PORT-M01,Despatx Marc,—,No s'ha obert.,Fora de l'abast del projecte.
