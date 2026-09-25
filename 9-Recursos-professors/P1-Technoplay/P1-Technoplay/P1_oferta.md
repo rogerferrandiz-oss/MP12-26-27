@@ -310,7 +310,7 @@ enllacos:
 
 enllacos:
 - Tutorial del cicle en V | https://cv.copernic.cat/mod/book/view.php?id=23673 | fa-link
-
+  
 
 Per fer l'oferta, trobareu les plantilles de document al repositori d'Aperture
 
