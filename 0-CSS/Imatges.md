@@ -14,4 +14,5 @@
 | Cave Johnson avatar |  https://cv.copernic.cat/pluginfile.php/29383/mod_resource/content/1/Cave_avatar.jpeg |
 | Cave Johnson seriós  | https://cv.copernic.cat/pluginfile.php/29384/mod_resource/content/1/Cave_seri%C3%B3s_avatar.jpeg  |
 | Cave Johnson benvinguda  | https://cv.copernic.cat/pluginfile.php/29385/mod_resource/content/1/Cave_benvinguda.jpeg  |
+| Marc Garcia avatar | https://cv.copernic.cat/pluginfile.php/32664/mod_resource/content/1/P1_marc_avatar_2.png |
 | --- | ------|
