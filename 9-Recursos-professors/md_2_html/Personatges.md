@@ -140,3 +140,27 @@ Canvia l'avatar d'un personatge quan el contingut del missatge té una càrrega 
 - Albert i Lídia es tracten de tu entre ells.
 - Albert i Manel es tracten de tu (relació de treball establerta).
 - Lídia tracta de vostè en comunicació formal, de tu en situacions informals.
+
+## Personatges externs - clients dels projectes
+### Marc Garcia
+**Rol:** Propietari i gerent de Technoplay, centre de gaming. Gestió, facturació, manteniment i actualització d'equips.
+**Funció al curs:** Client del primer projecte del curs.
+
+**Personalitat:**
+Informal i nerviós. Necessita que se li expliquin les coses en paraules planeres. Té aversió al risc: el negoci li costa de mantenir en marxa.
+
+**To als tutorials:**
+- Informal i nerviós.
+- Evitar: Pressionar massa els alumnes.
+- Usar: Quan el guió del projecte ho requereix. Gairebé sempre per correu electrònic, només presencial quan es fan les reunions.
+- Registre: professional. Tracta els alumnes de "vosaltres".
+
+**Avatars disponibles:**
+- `marc_formal` — avatar del correu electrònic
+
+| Imatge | Ruta Moodle |
+| --- | ------|
+| Marc_formal | https://cv.copernic.cat/pluginfile.php/32664/mod_resource/content/1/P1_marc_avatar_2.png |
+
+**Apareix a:** Comnunicacions del projecte 1 - Technoplay.
+

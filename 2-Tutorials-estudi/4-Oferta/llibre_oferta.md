@@ -1,11 +1,3 @@
-<!-- PERSONATGES -->
-<!--
-albert_formal: https://cv.copernic.cat/pluginfile.php/29324/mod_resource/content/1/Albert%20presentaci%C3%B3.png
-lidia_formal:  https://cv.copernic.cat/pluginfile.php/29254/mod_resource/content/2/lidia-normal-avatar.png
--->
-
-# Llibre [pendent número]. L'oferta
-
 ## Capítol 1. Les ofertes
 
 ```bloc-dialeg
@@ -17,11 +9,15 @@ L'oferta és el document més important d'un projecte. Com millor es fa una ofer
 
 Per fer una bona oferta, el primer que cal fer és tenir clares les necessitats del client. Això no és fàcil. Els clients són experts en el seu camp de coneixement, però no tenen ni idea d'informàtica, mentre que tu ets informàtic i no tens ni idea del seu camp de coneixement. Per exemple, advocats, metges, botiguers...
 
-Aquest capítol és tan llarg com important. Us deixem un vídeo de resum, però és **MOLT RECOMANABLE** que aneu als diferents apartats a mirar el detall de cada document. El vídeo no ho recull tot.
+
 ```
 
 ```destacat-video
-<!-- placeholder de vídeo -->
+Aquest capítol és tan llarg com important. Us deixem un vídeo de resum, però és **MOLT RECOMANABLE** que aneu als diferents apartats a mirar el detall de cada document. El vídeo no ho recull tot.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1UIPaRfBuTA?si=i0qZBtJd5RYgXVtl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<hr>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eM-oPpm5_1k?si=UpWoWjpV7uYyi0Bv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ```
 
 ```destacat-warning
@@ -82,7 +78,7 @@ Des del Departament de Recursos Humans us hem preparat un document que us pot aj
 ```
 ```bloc-boto
 text: Plantilla de requisits del projecte
-url:
+url: https://docs.google.com/document/d/17tFqhRb1CQgEPxb1mqLfT70H-urSIKVUrLh3yojgMHs/edit?usp=sharing
 icona: fa-download
 estil: primari
 ```
@@ -118,13 +114,14 @@ El primer contacte sempre és molt formal.
 - Quan acabis, llegeix en veu alta les notes que has pres i que el client estigui d'acord amb el que has apuntat.
 ```
 
-#### Després de la reunió
+```destacat-info
+**Després de la reunió**
 
 Envia un correu al client amb:
+
 - Quan rebrà l'oferta per tal que la pugui estudiar.
 - L'acta de la reunió que heu tingut.
-
----
+```
 
 ## Capítol 3. Els documents de l'oferta
 
@@ -134,6 +131,7 @@ nom: Albert Serrano
 rol: Consultor sènior · Mentor tècnic
 
 Tota oferta té tres documents imprescindibles i que estan relacionats entre ells. Normalment es fan alhora i els canvis en un d'ells afecten els altres dos, de manera que primer és molt important saber què s'ha de fer, i després omplir els tres documents.
+
 - **La proposta tècnica:** Aquí descrius en detall tot el que faràs per solucionar el problema del client. Quan feu el llistat de totes les coses que heu de fer, trobareu que aquesta informació la podeu aprofitar per al pressupost i el calendari.
 - **El pressupost:** Aquí detalles quant costa (import econòmic) les feines que fas, el material que compres i les llicències de programari si és que ho necessites. De cada un dels elements de la llista de treballs, heu de mirar quantes hores de treball porten, si us fa falta material per al client, si heu de fer viatges... Tot això es paga.
 - **El calendari:** Aquí detalles quan trigaràs a fer cada una de les feines que pressupostes i que expliques a la proposta tècnica. Del llistat de tot el que has de fer, i el temps que trigaràs a tenir el material que has de comprar, surt un calendari que t'indicarà quant de temps trigareu.
@@ -141,10 +139,11 @@ Tota oferta té tres documents imprescindibles i que estan relacionats entre ell
 
 ```destacat-reading
 Aquest gràfic és el resum de com heu de treballar per fer una bona oferta.
-<!-- Imatge: Esquema_redaccio_oferta.png (ja la tens). Cal hostatjar-la i enllaçar-la aquí. -->
+<img src="https://cv.copernic.cat/pluginfile.php/29421/mod_resource/content/1/Esquema_redaccio_oferta.png" width="100%">
 ```
 
 ```destacat-info
+
 - **L'experiència professional millora les previsions**. El grau d'encert en temps i cost dels projectes, així com el disseny de les solucions ve sobretot de l'experiència. No esperem miracles en els primers projectes, només que aneu acumulant coneixement.
 - **Fer bé i lligar bé els tres documents ajuda a que el projecte sigui un èxit**. Un document clar ajuda tant al client (que té clar què rebrà) com a vosaltres (és un enunciat a seguir si està ben feta). I no és tan senzill com sembla.
 ```
@@ -239,7 +238,8 @@ El pressupost és clau i és on ens juguem tenir beneficis o perdre diners. Feu 
 
 ```destacat-reading
 Aquí us deixem la plantilla oficial de pressupost.
-<!-- Placeholder. Link a la plantilla de pressupost. Serà una captura de pantalla -->
+enllacos:
+Plantilla de pressupost | https://docs.google.com/spreadsheets/d/1NWH-fu346P09AhIyoDhVpnGtgqrF-IDuN13ksKtmruU/edit?usp=sharing | fa-link
 ```
 
 ```destacat-info

@@ -173,7 +173,7 @@ Tots els tutorials tenen un vídeo explicatiu.
 
 ```bloc-recursos
 - Com fer un correu electrònic professional | https://cv.copernic.cat/mod/book/view.php?id=23367 | fa-link
-- Com fer i portar una reunió | https://cv.copernic.cat/mod/book/view.php?id=23450&chapterid=765 | fa-link
+- Com fer i portar una reunió | https://cv.copernic.cat/mod/book/view.php?id=23449 | fa-link
 - Plantilla de convocatòria de reunió | https://docs.google.com/document/d/1Ff0I5ejRKRU8ipzBsiMyY3bvhIIlv7pNr9Of2pasC44/edit?usp=sharing | fa-edit
 ```
 
@@ -196,6 +196,15 @@ Algunes coses que podeu tenir en compte són:
 - Els clients es queixen d'alguna cosa més, a part dels reinicis?
 - Hi ha algú més, a part del Marc, que us pugui explicar com funciona el local al dia a dia?
 ```
+#### MENTRE NO FEU LA REUNIÓ
+```bloc-dialeg
+avatar: lidia_formal
+nom: Lídia García
+rol: Recursos Humans i Qualitat · Aperture Holistics Consulting
+
+Teniu un tutorial sobre com fer l'oferta i excepte alguns dubtes, teniu clares les feines bàsiques que heu de fer. Aneu adelantant la feina de disseny de la solució que voleu proposar al client i adelanteu feina. Com més temps dediqueu al projecte, més opcions teniu que ens accepti l'oferta.
+```
+
 
 #### NECESSITEU FER UNA ACTA DE LA REUNIÓ
 ```bloc-dialeg
@@ -231,7 +240,56 @@ El motiu és senzill: tot el que poseu a l'oferta és una promesa, i l'últim di
 
 ```
 
-## REDACTAR L'OFERTA
+### HEM REBUT UN CORREU DEL MARC
+```bloc-correu
+avatar: marc_formal
+de: Marc García <marc@technoplay.cat>
+per: Albert Serrano <albert.serrano@apertureholistics.cat>
+data: 21 de setembre de 2026, 12:10
+assumpte: Algunes coses que m'he oblidat de comentar durant la reunió.
+
+Bon dia, Albert
+
+estic impressionat amb la competència dels vostres consultors. Han fet molt bona feina portant la reunió i amb les preguntes que han fet.
+
+Us adjunto el llistat amb les incidències trobades aquestes setmanes per la Laura i jo. Lamentem no ser més específics amb algunes coses.
+
+enllacos:
+- Inventari dels problemes trobats | https://docs.google.com/spreadsheets/d/1BirE-gwfVFc9LIQk7iSNgAHuwCV8HbeYC36xW-tVlIs/edit?usp=sharing | fa-link
+
+Espero rebre l'acta de reunió aviat.
+
+I una cosa que hem vist la Laura i jo parlant aquest matí, i hem vist que tenim un problema. El centre tanca tots els dilluns matí i és l'únic moment de la setmana que podeu intervenir els ordinadors del local. L'horari dels dilluns és de les 16:00 h fins les 22:00 h. Només tindreu des de les 8 del matí fins a les 15:30 h. Necessitem 30 minuts per acabar de deixar-ho tot presentable per a obrir.
+
+Sé que és una molèstia, però us demano que ajusteu els treballs a aquest horari. Estic segur que ho podeu fer.
+
+Salutacions cordials
+
+**Marc García**
+_Technoplay - Gerent_
+```
+### COM HEM D'ACTUAR DAVANT AQUEST CANVI?
+```bloc-dialeg
+avatar: albert_formal
+nom: Albert Serrano
+rol: Mentor tècnic · Aperture Holistics Consulting
+
+Ja us ho dèiem que els clients sempre tenen sorpreses. Ja us acostumareu. Per sort ens ho diu abans de presentar l'oferta i podem preveure les conseqüències del canvi.
+
+Saber això un cop hem començat el projecte és un desastre.
+
+Estudiem el canvi.
+
+- És un requisit o una restricció?
+- Com ajustem el calendari a aquesta restricció?
+- Podem fer el treball com el teníem pensat o hem de fer-ho d'una altra manera?
+```
+
+```destacat-info
+Els projectes reals no són un enunciat de l'institut. Hem d'estar preparats pels imprevistos, els canvis en el parer del client o com en aquest cas, descobrir que no ens ho havia explicat tot.
+```
+
+## ELS DOCUMENTS PER REDACTAR L'OFERTA
 ```bloc-dialeg
 avatar: lidia_formal
 nom: Lídia García
@@ -241,21 +299,52 @@ Un cop ja heu fet l'acta de la reunió i l'heu enviada al client, ja hauríem de
 
 Dins del tutorial de l'oferta teniu les instruccions que heu de tenir present per fer els tres documents de l'oferta.
 
-enllacos:
-- Tutorial sobre com fer una oferta | https://cv.copernic.cat/mod/book/view.php?id=23450 | fa-link
-
 I si malgrat tot encara teniu dubtes o hi ha problemes perquè no sabeu alguna cosa de la tecnologia, sempre podeu enviar més preguntes al client. Que siguin per escrit és millor, perquè evita mals entesos en el futur.
 
-Per fer el pressupost, us heu de basar en els preus del nostre proveïdor:
+- Per fer el pressupost, us heu de basar en els preus del nostre proveïdor.
+- Per fer el calendari, és molt important que tingueu en compte que el projecte el farem seguint el procés en V, que implica que farem tot un seguit de proves que s'han d'incloure en el calendari. 
 
-enllacos:
+Per fer l'oferta, trobareu les plantilles de document al repositori d'Aperture
+```
+
+```bloc-recursos
+- Tutorial sobre com fer una oferta | https://cv.copernic.cat/mod/book/view.php?id=23450 | fa-link
 - Llista de preus de La Botiga del PC | https://docs.google.com/spreadsheets/d/1qz62gDEjMlmAi_B1gGeE6bQ02bykN1JLw3ExLJCQsCc/edit?usp=sharing | fa-database
-
-És molt important que per fer el calendari tingueu en compte que el projecte el farem seguint el procés en V, que implica que farem tot un seguit de proves que s'han d'incloure en el calendari. 
-
-enllacos:
 - Tutorial del cicle en V | https://cv.copernic.cat/mod/book/view.php?id=23673 | fa-link
+- Plantilles corporatives d'Aperture | hhttps://cv.copernic.cat/course/section.php?id=354 | fa-link
 
+```
+
+### PENSAR COM FER EL PROJECTE
+```bloc-dialeg
+avatar: albert_formal
+nom: Albert Serrano
+rol: Mentor tècnic · Aperture Holistics Consulting
+
+Una de les coses més importants en el moment de fer una oferta, és pensar com fareu el projecte, però sense fer-lo.
+
+- Descriure les accions a realitzar.
+- Pensar en l'ordre en les quals ho fareu.
+- Mirar què necessiteu per fer cada tasca i assegurar que ho teniu a temps.
+- Encadenar les diferents tasques.
+Això us permetrà definir les diferents tasques, entendre les passes a realitzar i planificar la durada del projecte. Ja heu vist que teniu noves restriccions de temps.
+
+Com aquest procés de definició entenem que és complicat i que no n'heu fet mai un abans, us hem preparat per aquest primer projecte d'aprenentatge un diagrama d'exemple de les accions a realitzar quan estàs fent el disseny bàsic del projecte.
+
+**No us servirà al 100% per fer l'oferta**
+
+```
+```bloc-boto
+text: Obre el diagrama de tasques per netejar ordinadors.
+url: https://drive.google.com/file/d/1FF42VAb0FOmXfJhMOVR4vLQA70bvxdPK/view?usp=sharing
+icona: fa-link
+estil: primari
+```
+
+```destacat-warning
+L'oferta és un document fonamental perquè un cop ens l'acceptin, el projecte surti bé i a la primera. Teniu temps de sobres per fer un bon treball. 
+
+**No és una competició de velocitat**. És una feina on heu de pensar, i molt.
 ```
 
 ```destacat-ideas
@@ -280,9 +369,7 @@ enllacos:
 
 ```
 
-```destacat-warning
-L'oferta és un document fonamental perquè un cop ens l'acceptin, el projecte surti bé i a la primera. Teniu temps de sobres per fer un bon treball. No és una competició de velocitat, sinó una feina on heu de pensar, i molt.
-```
+
 
 ### EL SEGUIMENT DE L'OFERTA
 ```bloc-dialeg
